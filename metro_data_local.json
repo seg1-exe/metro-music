@@ -1,0 +1,4217 @@
+{
+  "lines": [
+    {
+      "line_id": 2,
+      "name": "International",
+      "color": "#E63946"
+    },
+    {
+      "line_id": 3,
+      "name": "Blues",
+      "color": "#F1FAEE"
+    },
+    {
+      "line_id": 4,
+      "name": "Jazz",
+      "color": "#A8DADC"
+    },
+    {
+      "line_id": 5,
+      "name": "Classical",
+      "color": "#457B9D"
+    },
+    {
+      "line_id": 8,
+      "name": "Old-Time / Historic",
+      "color": "#1D3557"
+    },
+    {
+      "line_id": 9,
+      "name": "Country",
+      "color": "#F4A261"
+    },
+    {
+      "line_id": 10,
+      "name": "Pop",
+      "color": "#2A9D8F"
+    },
+    {
+      "line_id": 12,
+      "name": "Rock",
+      "color": "#E9C46A"
+    },
+    {
+      "line_id": 13,
+      "name": "Easy Listening",
+      "color": "#264653"
+    },
+    {
+      "line_id": 14,
+      "name": "Soul-RnB",
+      "color": "#D62828"
+    },
+    {
+      "line_id": 15,
+      "name": "Electronic",
+      "color": "#023047"
+    },
+    {
+      "line_id": 17,
+      "name": "Folk",
+      "color": "#FFB703"
+    },
+    {
+      "line_id": 20,
+      "name": "Spoken",
+      "color": "#FB8500"
+    },
+    {
+      "line_id": 21,
+      "name": "Hip-Hop",
+      "color": "#8ECAE6"
+    },
+    {
+      "line_id": 38,
+      "name": "Experimental",
+      "color": "#219EBC"
+    },
+    {
+      "line_id": 1235,
+      "name": "Instrumental",
+      "color": "#B5179E"
+    }
+  ],
+  "stations": [
+    {
+      "station_id": 46,
+      "name": "Latin America",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 64593,
+          "title": "Barranquilla Tiene Un  Swing",
+          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "url": "music/64593.mp3"
+        },
+        {
+          "id": 64592,
+          "title": "Cupido",
+          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "url": "music/64592.mp3"
+        },
+        {
+          "id": 64591,
+          "title": "Fui Yo",
+          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "url": "music/64591.mp3"
+        },
+        {
+          "id": 64590,
+          "title": "Vamos A Tocar Sonero",
+          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "url": "music/64590.mp3"
+        },
+        {
+          "id": 33072,
+          "title": "Lanzaplatos",
+          "artist": "Chico Trujillo",
+          "url": "music/33072.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 77,
+      "name": "French",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 129816,
+          "title": "Fam Martinia Dou",
+          "artist": "Les Vilians Chicots",
+          "url": "music/129816.mp3"
+        },
+        {
+          "id": 127869,
+          "title": "Sad French Accordion",
+          "artist": "Dana Boul\u00e9",
+          "url": "music/127869.mp3"
+        },
+        {
+          "id": 127871,
+          "title": "Swinging in the 7th",
+          "artist": "Dana Boul\u00e9",
+          "url": "music/127871.mp3"
+        },
+        {
+          "id": 127866,
+          "title": "Paris Ballade",
+          "artist": "Dana Boul\u00e9",
+          "url": "music/127866.mp3"
+        },
+        {
+          "id": 127870,
+          "title": "Tomorrow Comes (accordion)",
+          "artist": "Dana Boul\u00e9",
+          "url": "music/127870.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 79,
+      "name": "Reggae - Dub",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 54470,
+          "title": "Epic Dub",
+          "artist": "DuBoLoGy",
+          "url": "music/54470.mp3"
+        },
+        {
+          "id": 62534,
+          "title": "Closing",
+          "artist": "Tommy Tornado",
+          "url": "music/62534.mp3"
+        },
+        {
+          "id": 42014,
+          "title": "Skango - Volfoniq rmx (Canada)",
+          "artist": "Caballo and the Mothafu Kings",
+          "url": "music/42014.mp3"
+        },
+        {
+          "id": 62525,
+          "title": "Mistery Woman",
+          "artist": "Tommy Tornado",
+          "url": "music/62525.mp3"
+        },
+        {
+          "id": 62531,
+          "title": "Skank it",
+          "artist": "Tommy Tornado",
+          "url": "music/62531.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 86,
+      "name": "Indian",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 15488,
+          "title": "Haratanaya Sree",
+          "artist": "Veena Kinhal",
+          "url": "music/15488.mp3"
+        },
+        {
+          "id": 15487,
+          "title": "Pranatarthi Haram",
+          "artist": "Veena Raja Rao and Veena Gopala Rao",
+          "url": "music/15487.mp3"
+        },
+        {
+          "id": 43172,
+          "title": "Koka",
+          "artist": "Kiran Ahluwalia",
+          "url": "music/43172.mp3"
+        },
+        {
+          "id": 43173,
+          "title": "Meri Gori Gori",
+          "artist": "Kiran Ahluwalia",
+          "url": "music/43173.mp3"
+        },
+        {
+          "id": 17634,
+          "title": "M.Samba",
+          "artist": "Jalikebba Kuyateh and the Toubabs",
+          "url": "music/17634.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 92,
+      "name": "African",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 27953,
+          "title": "(a) The Forest",
+          "artist": "Cooper-Moore",
+          "url": "music/27953.mp3"
+        },
+        {
+          "id": 57697,
+          "title": "Conserve de Trees",
+          "artist": "The Conscious Youths",
+          "url": "music/57697.mp3"
+        },
+        {
+          "id": 62196,
+          "title": "Jardin damour",
+          "artist": "Barbara Kanam --",
+          "url": "music/62196.mp3"
+        },
+        {
+          "id": 62195,
+          "title": "La go d'a c\u00f4t\u00e9",
+          "artist": "Arielle T",
+          "url": "music/62195.mp3"
+        },
+        {
+          "id": 4239,
+          "title": "Shishituki",
+          "artist": "The Sounds of Taraab",
+          "url": "music/4239.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 102,
+      "name": "Middle East",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 22315,
+          "title": "Taqasim",
+          "artist": "DJ /rupture",
+          "url": "music/22315.mp3"
+        },
+        {
+          "id": 43699,
+          "title": "Varshaver",
+          "artist": "MWE",
+          "url": "music/43699.mp3"
+        },
+        {
+          "id": 43697,
+          "title": "S\u00fcleyman A\u011fa",
+          "artist": "MWE",
+          "url": "music/43697.mp3"
+        },
+        {
+          "id": 43698,
+          "title": "Syrtos",
+          "artist": "MWE",
+          "url": "music/43698.mp3"
+        },
+        {
+          "id": 43695,
+          "title": "Halay",
+          "artist": "MWE",
+          "url": "music/43695.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 117,
+      "name": "Polka",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 53728,
+          "title": "Unza Unza live at Pacific Parc",
+          "artist": "Unza Unza Orkstar",
+          "url": "music/53728.mp3"
+        },
+        {
+          "id": 3775,
+          "title": "Cumbia Infierno",
+          "artist": "La Troba Kung-Fu",
+          "url": "music/3775.mp3"
+        },
+        {
+          "id": 4100,
+          "title": "Gitanas Mojadas",
+          "artist": "Polka Madre",
+          "url": "music/4100.mp3"
+        },
+        {
+          "id": 3778,
+          "title": "Calor Calor",
+          "artist": "La Troba Kung-Fu",
+          "url": "music/3778.mp3"
+        },
+        {
+          "id": 53727,
+          "title": "Unza Unza live at Pacific Parc",
+          "artist": "Unza Unza Orkstar",
+          "url": "music/53727.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 118,
+      "name": "Balkan",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 59687,
+          "title": "Tangos de Granada",
+          "artist": "Ventanas",
+          "url": "music/59687.mp3"
+        },
+        {
+          "id": 59688,
+          "title": "Frog Song",
+          "artist": "Ventanas",
+          "url": "music/59688.mp3"
+        },
+        {
+          "id": 43699,
+          "title": "Varshaver",
+          "artist": "MWE",
+          "url": "music/43699.mp3"
+        },
+        {
+          "id": 44823,
+          "title": "Black Bear Kolo",
+          "artist": "Black Bear Combo",
+          "url": "music/44823.mp3"
+        },
+        {
+          "id": 43697,
+          "title": "S\u00fcleyman A\u011fa",
+          "artist": "MWE",
+          "url": "music/43697.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 130,
+      "name": "Europe",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 73760,
+          "title": "IMF",
+          "artist": "Dot",
+          "url": "music/73760.mp3"
+        },
+        {
+          "id": 27612,
+          "title": "Que te Quiero Yo",
+          "artist": "El Ni\u00f1o del Parking",
+          "url": "music/27612.mp3"
+        },
+        {
+          "id": 27613,
+          "title": "Los Dolores de Juana",
+          "artist": "El Ni\u00f1o del Parking",
+          "url": "music/27613.mp3"
+        },
+        {
+          "id": 27609,
+          "title": "Baile me por Tangos",
+          "artist": "El Ni\u00f1o del Parking",
+          "url": "music/27609.mp3"
+        },
+        {
+          "id": 27611,
+          "title": "La Juerga en Estado Puro",
+          "artist": "El Ni\u00f1o del Parking",
+          "url": "music/27611.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 171,
+      "name": "Brazilian",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 20432,
+          "title": "Bubuia",
+          "artist": "Ceu",
+          "url": "music/20432.mp3"
+        },
+        {
+          "id": 31165,
+          "title": "A palavra / O primeiro passo",
+          "artist": "BNeg\u00e3o & Seletores de Freq\u00fc\u00eancia",
+          "url": "music/31165.mp3"
+        },
+        {
+          "id": 19673,
+          "title": "Banaketwe",
+          "artist": "Smokey Hormel",
+          "url": "music/19673.mp3"
+        },
+        {
+          "id": 19674,
+          "title": "Sous les Tropiques",
+          "artist": "Smokey Hormel",
+          "url": "music/19674.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 172,
+      "name": "Asia-Far East",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 15880,
+          "title": "Taishikich\u00f4 Ch\u00f4shi",
+          "artist": "Kokusai Bunka Shinkokai",
+          "url": "music/15880.mp3"
+        },
+        {
+          "id": 27953,
+          "title": "(a) The Forest",
+          "artist": "Cooper-Moore",
+          "url": "music/27953.mp3"
+        },
+        {
+          "id": 56474,
+          "title": "Eki A'ttar",
+          "artist": "Alash Ensemble",
+          "url": "music/56474.mp3"
+        },
+        {
+          "id": 16334,
+          "title": "Kapi Radja (Ape King)",
+          "artist": "Peliatan Gamelan",
+          "url": "music/16334.mp3"
+        },
+        {
+          "id": 27987,
+          "title": "Bubaran UDAN MAS",
+          "artist": "Gamelan Nyai Saraswati",
+          "url": "music/27987.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 176,
+      "name": "Pacific",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 62751,
+          "title": "Birthday Cake",
+          "artist": "Jahzzar",
+          "url": "music/62751.mp3"
+        },
+        {
+          "id": 54662,
+          "title": "Horses With Fake Legs",
+          "artist": "Noisewaves",
+          "url": "music/54662.mp3"
+        },
+        {
+          "id": 84417,
+          "title": "Snow Eater",
+          "artist": "OWL BRAIN ATLAS",
+          "url": "music/84417.mp3"
+        },
+        {
+          "id": 36435,
+          "title": "Please Mind the Dubstep",
+          "artist": "Bitbasic",
+          "url": "music/36435.mp3"
+        },
+        {
+          "id": 24425,
+          "title": "Fater Lee",
+          "artist": "Black Ant",
+          "url": "music/24425.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 177,
+      "name": "Celtic",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 38822,
+          "title": "The Manx Lullaby",
+          "artist": "Sl\u00e1inte",
+          "url": "music/38822.mp3"
+        },
+        {
+          "id": 38784,
+          "title": "Julia Delaney",
+          "artist": "Sl\u00e1inte",
+          "url": "music/38784.mp3"
+        },
+        {
+          "id": 38781,
+          "title": "Denis Murphy's, John Ryan's",
+          "artist": "Sl\u00e1inte",
+          "url": "music/38781.mp3"
+        },
+        {
+          "id": 38823,
+          "title": "Scully's Reel. Mrs McLeod's. Cooley's Reel",
+          "artist": "Sl\u00e1inte",
+          "url": "music/38823.mp3"
+        },
+        {
+          "id": 91181,
+          "title": "Moorlough shore",
+          "artist": "Aislinn",
+          "url": "music/91181.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 232,
+      "name": "Flamenco",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 27609,
+          "title": "Baile me por Tangos",
+          "artist": "El Ni\u00f1o del Parking",
+          "url": "music/27609.mp3"
+        },
+        {
+          "id": 27610,
+          "title": "Big Foot (Cu\u00e1ntos A\u00f1os)",
+          "artist": "El Ni\u00f1o del Parking",
+          "url": "music/27610.mp3"
+        },
+        {
+          "id": 59688,
+          "title": "Frog Song",
+          "artist": "Ventanas",
+          "url": "music/59688.mp3"
+        },
+        {
+          "id": 59686,
+          "title": "Introductions and Chifteteli",
+          "artist": "Ventanas",
+          "url": "music/59686.mp3"
+        },
+        {
+          "id": 59687,
+          "title": "Tangos de Granada",
+          "artist": "Ventanas",
+          "url": "music/59687.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 504,
+      "name": "Latin",
+      "line_id": 2,
+      "playlist": [
+        {
+          "id": 142537,
+          "title": "Atura el temps",
+          "artist": "Terratombats",
+          "url": "music/142537.mp3"
+        },
+        {
+          "id": 27612,
+          "title": "Que te Quiero Yo",
+          "artist": "El Ni\u00f1o del Parking",
+          "url": "music/27612.mp3"
+        },
+        {
+          "id": 129926,
+          "title": "Vieja",
+          "artist": "Radio Jarocho and Zenen Zeferino Huervo",
+          "url": "music/129926.mp3"
+        },
+        {
+          "id": 129922,
+          "title": "Coco",
+          "artist": "Radio Jarocho and Zenen Zeferino Huervo",
+          "url": "music/129922.mp3"
+        },
+        {
+          "id": 142534,
+          "title": "Hereus de mala vida",
+          "artist": "Terratombats",
+          "url": "music/142534.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 567,
+      "name": "Gospel",
+      "line_id": 3,
+      "playlist": [
+        {
+          "id": 18197,
+          "title": "Happening for Lulu",
+          "artist": "Kraus",
+          "url": "music/18197.mp3"
+        },
+        {
+          "id": 73495,
+          "title": "Mariachi Bandits of Gatling Gun Ridge",
+          "artist": "krackatoa",
+          "url": "music/73495.mp3"
+        },
+        {
+          "id": 74706,
+          "title": "Fall asleep under the millions of stars (Instrumental)",
+          "artist": "springtide",
+          "url": "music/74706.mp3"
+        },
+        {
+          "id": 80833,
+          "title": "kind gentle beautiful person",
+          "artist": "Origami Repetika",
+          "url": "music/80833.mp3"
+        },
+        {
+          "id": 61492,
+          "title": "No.02",
+          "artist": "Room For A Ghost",
+          "url": "music/61492.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 37,
+      "name": "Jazz: Vocal",
+      "line_id": 4,
+      "playlist": [
+        {
+          "id": 89192,
+          "title": "Raro Bueno",
+          "artist": "Chuzausen",
+          "url": "music/89192.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Freeway",
+          "artist": "Kurt Vile",
+          "url": "music/10.mp3"
+        },
+        {
+          "id": 68898,
+          "title": "Like Swimming",
+          "artist": "Broke For Free",
+          "url": "music/68898.mp3"
+        },
+        {
+          "id": 22295,
+          "title": "Sorry",
+          "artist": "Comfort Fit",
+          "url": "music/22295.mp3"
+        },
+        {
+          "id": 113259,
+          "title": "Povo Que Ca\u00eds Descal\u00e7o",
+          "artist": "Dead Combo",
+          "url": "music/113259.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 74,
+      "name": "Free-Jazz",
+      "line_id": 4,
+      "playlist": [
+        {
+          "id": 26605,
+          "title": "\"Ella Fitzgerald\" by James A. Emanuel",
+          "artist": "Lezet",
+          "url": "music/26605.mp3"
+        },
+        {
+          "id": 11773,
+          "title": "05 Too Complex Instrumental     {6th Sense & The Kid Daytona}.mp3",
+          "artist": "6th Sense",
+          "url": "music/11773.mp3"
+        },
+        {
+          "id": 64593,
+          "title": "Barranquilla Tiene Un  Swing",
+          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "url": "music/64593.mp3"
+        },
+        {
+          "id": 61492,
+          "title": "No.02",
+          "artist": "Room For A Ghost",
+          "url": "music/61492.mp3"
+        },
+        {
+          "id": 28553,
+          "title": "Lullaby",
+          "artist": "_ghost",
+          "url": "music/28553.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 97,
+      "name": "Jazz: Out",
+      "line_id": 4,
+      "playlist": [
+        {
+          "id": 62751,
+          "title": "Birthday Cake",
+          "artist": "Jahzzar",
+          "url": "music/62751.mp3"
+        },
+        {
+          "id": 56874,
+          "title": "Midori",
+          "artist": "Beat Culture",
+          "url": "music/56874.mp3"
+        },
+        {
+          "id": 54662,
+          "title": "Horses With Fake Legs",
+          "artist": "Noisewaves",
+          "url": "music/54662.mp3"
+        },
+        {
+          "id": 89192,
+          "title": "Raro Bueno",
+          "artist": "Chuzausen",
+          "url": "music/89192.mp3"
+        },
+        {
+          "id": 58341,
+          "title": "Oh Wee",
+          "artist": "Immortal Beats",
+          "url": "music/58341.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 178,
+      "name": "Be-Bop",
+      "line_id": 4,
+      "playlist": [
+        {
+          "id": 113259,
+          "title": "Povo Que Ca\u00eds Descal\u00e7o",
+          "artist": "Dead Combo",
+          "url": "music/113259.mp3"
+        },
+        {
+          "id": 58341,
+          "title": "Oh Wee",
+          "artist": "Immortal Beats",
+          "url": "music/58341.mp3"
+        },
+        {
+          "id": 24425,
+          "title": "Fater Lee",
+          "artist": "Black Ant",
+          "url": "music/24425.mp3"
+        },
+        {
+          "id": 36435,
+          "title": "Please Mind the Dubstep",
+          "artist": "Bitbasic",
+          "url": "music/36435.mp3"
+        },
+        {
+          "id": 95722,
+          "title": "Adventure, Darling",
+          "artist": "Gillicuddy",
+          "url": "music/95722.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 179,
+      "name": "Big Band/Swing",
+      "line_id": 4,
+      "playlist": [
+        {
+          "id": 29044,
+          "title": "ekiti son feat valeska - april deegee rmx",
+          "artist": "Digi G'Alessio",
+          "url": "music/29044.mp3"
+        },
+        {
+          "id": 69194,
+          "title": "Memories Of Thailand (Beat Doctor's 'stuck in Britain' remix)",
+          "artist": "Risey",
+          "url": "music/69194.mp3"
+        },
+        {
+          "id": 42019,
+          "title": "Them Never Love No Bans - DnB Mix (Germany)",
+          "artist": "Hot Fire",
+          "url": "music/42019.mp3"
+        },
+        {
+          "id": 31040,
+          "title": "Hallon",
+          "artist": "Christian Bjoerklund",
+          "url": "music/31040.mp3"
+        },
+        {
+          "id": 69170,
+          "title": "Enthusiast",
+          "artist": "Tours",
+          "url": "music/69170.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 906,
+      "name": "Modern Jazz",
+      "line_id": 4,
+      "playlist": [
+        {
+          "id": 26605,
+          "title": "\"Ella Fitzgerald\" by James A. Emanuel",
+          "artist": "Lezet",
+          "url": "music/26605.mp3"
+        },
+        {
+          "id": 61492,
+          "title": "No.02",
+          "artist": "Room For A Ghost",
+          "url": "music/61492.mp3"
+        },
+        {
+          "id": 64593,
+          "title": "Barranquilla Tiene Un  Swing",
+          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "url": "music/64593.mp3"
+        },
+        {
+          "id": 28553,
+          "title": "Lullaby",
+          "artist": "_ghost",
+          "url": "music/28553.mp3"
+        },
+        {
+          "id": 54033,
+          "title": "Snow Wave",
+          "artist": "alright lover",
+          "url": "music/54033.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 187,
+      "name": "20th Century Classical",
+      "line_id": 5,
+      "playlist": [
+        {
+          "id": 20296,
+          "title": "Part 3",
+          "artist": "Sikhara",
+          "url": "music/20296.mp3"
+        },
+        {
+          "id": 58341,
+          "title": "Oh Wee",
+          "artist": "Immortal Beats",
+          "url": "music/58341.mp3"
+        },
+        {
+          "id": 74706,
+          "title": "Fall asleep under the millions of stars (Instrumental)",
+          "artist": "springtide",
+          "url": "music/74706.mp3"
+        },
+        {
+          "id": 84417,
+          "title": "Snow Eater",
+          "artist": "OWL BRAIN ATLAS",
+          "url": "music/84417.mp3"
+        },
+        {
+          "id": 66076,
+          "title": "Amsterdam",
+          "artist": "LASERS",
+          "url": "music/66076.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 322,
+      "name": "Composed Music",
+      "line_id": 5,
+      "playlist": [
+        {
+          "id": 42751,
+          "title": "Butterfly",
+          "artist": "Delicate Steve",
+          "url": "music/42751.mp3"
+        },
+        {
+          "id": 36435,
+          "title": "Please Mind the Dubstep",
+          "artist": "Bitbasic",
+          "url": "music/36435.mp3"
+        },
+        {
+          "id": 26605,
+          "title": "\"Ella Fitzgerald\" by James A. Emanuel",
+          "artist": "Lezet",
+          "url": "music/26605.mp3"
+        },
+        {
+          "id": 24425,
+          "title": "Fater Lee",
+          "artist": "Black Ant",
+          "url": "music/24425.mp3"
+        },
+        {
+          "id": 66638,
+          "title": "Grief And Sleep",
+          "artist": "Ghosts",
+          "url": "music/66638.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 441,
+      "name": "Opera",
+      "line_id": 5,
+      "playlist": [
+        {
+          "id": 69170,
+          "title": "Enthusiast",
+          "artist": "Tours",
+          "url": "music/69170.mp3"
+        },
+        {
+          "id": 66638,
+          "title": "Grief And Sleep",
+          "artist": "Ghosts",
+          "url": "music/66638.mp3"
+        },
+        {
+          "id": 54662,
+          "title": "Horses With Fake Legs",
+          "artist": "Noisewaves",
+          "url": "music/54662.mp3"
+        },
+        {
+          "id": 80833,
+          "title": "kind gentle beautiful person",
+          "artist": "Origami Repetika",
+          "url": "music/80833.mp3"
+        },
+        {
+          "id": 26605,
+          "title": "\"Ella Fitzgerald\" by James A. Emanuel",
+          "artist": "Lezet",
+          "url": "music/26605.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 442,
+      "name": "Chamber Music",
+      "line_id": 5,
+      "playlist": [
+        {
+          "id": 28553,
+          "title": "Lullaby",
+          "artist": "_ghost",
+          "url": "music/28553.mp3"
+        },
+        {
+          "id": 42751,
+          "title": "Butterfly",
+          "artist": "Delicate Steve",
+          "url": "music/42751.mp3"
+        },
+        {
+          "id": 42377,
+          "title": "Night Owl",
+          "artist": "Broke For Free",
+          "url": "music/42377.mp3"
+        },
+        {
+          "id": 84195,
+          "title": "Squinting at the Sun (radio edit)",
+          "artist": "Lee Rosevere",
+          "url": "music/84195.mp3"
+        },
+        {
+          "id": 22295,
+          "title": "Sorry",
+          "artist": "Comfort Fit",
+          "url": "music/22295.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 443,
+      "name": "Choral Music",
+      "line_id": 5,
+      "playlist": [
+        {
+          "id": 55718,
+          "title": "Kopeika",
+          "artist": "et_",
+          "url": "music/55718.mp3"
+        },
+        {
+          "id": 113259,
+          "title": "Povo Que Ca\u00eds Descal\u00e7o",
+          "artist": "Dead Combo",
+          "url": "music/113259.mp3"
+        },
+        {
+          "id": 29044,
+          "title": "ekiti son feat valeska - april deegee rmx",
+          "artist": "Digi G'Alessio",
+          "url": "music/29044.mp3"
+        },
+        {
+          "id": 66638,
+          "title": "Grief And Sleep",
+          "artist": "Ghosts",
+          "url": "music/66638.mp3"
+        },
+        {
+          "id": 126666,
+          "title": "Graceland Cemetery",
+          "artist": "Sleep Out",
+          "url": "music/126666.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 444,
+      "name": "Symphony",
+      "line_id": 5,
+      "playlist": [
+        {
+          "id": 74706,
+          "title": "Fall asleep under the millions of stars (Instrumental)",
+          "artist": "springtide",
+          "url": "music/74706.mp3"
+        },
+        {
+          "id": 69170,
+          "title": "Enthusiast",
+          "artist": "Tours",
+          "url": "music/69170.mp3"
+        },
+        {
+          "id": 55718,
+          "title": "Kopeika",
+          "artist": "et_",
+          "url": "music/55718.mp3"
+        },
+        {
+          "id": 42019,
+          "title": "Them Never Love No Bans - DnB Mix (Germany)",
+          "artist": "Hot Fire",
+          "url": "music/42019.mp3"
+        },
+        {
+          "id": 89192,
+          "title": "Raro Bueno",
+          "artist": "Chuzausen",
+          "url": "music/89192.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 659,
+      "name": "Contemporary Classical",
+      "line_id": 5,
+      "playlist": [
+        {
+          "id": 56874,
+          "title": "Midori",
+          "artist": "Beat Culture",
+          "url": "music/56874.mp3"
+        },
+        {
+          "id": 63065,
+          "title": "Starkey",
+          "artist": "Koona",
+          "url": "music/63065.mp3"
+        },
+        {
+          "id": 66638,
+          "title": "Grief And Sleep",
+          "artist": "Ghosts",
+          "url": "music/66638.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Freeway",
+          "artist": "Kurt Vile",
+          "url": "music/10.mp3"
+        },
+        {
+          "id": 54662,
+          "title": "Horses With Fake Legs",
+          "artist": "Noisewaves",
+          "url": "music/54662.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 63,
+      "name": "Bluegrass",
+      "line_id": 9,
+      "playlist": [
+        {
+          "id": 56874,
+          "title": "Midori",
+          "artist": "Beat Culture",
+          "url": "music/56874.mp3"
+        },
+        {
+          "id": 11773,
+          "title": "05 Too Complex Instrumental     {6th Sense & The Kid Daytona}.mp3",
+          "artist": "6th Sense",
+          "url": "music/11773.mp3"
+        },
+        {
+          "id": 86761,
+          "title": "Be Sweet",
+          "artist": "Marco Trovatello",
+          "url": "music/86761.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Freeway",
+          "artist": "Kurt Vile",
+          "url": "music/10.mp3"
+        },
+        {
+          "id": 23010,
+          "title": "Stereo-vision radio",
+          "artist": "Monopole",
+          "url": "music/23010.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 137,
+      "name": "Americana",
+      "line_id": 9,
+      "playlist": [
+        {
+          "id": 1482,
+          "title": "Reindeer Dance",
+          "artist": "Rainbro",
+          "url": "music/1482.mp3"
+        },
+        {
+          "id": 28553,
+          "title": "Lullaby",
+          "artist": "_ghost",
+          "url": "music/28553.mp3"
+        },
+        {
+          "id": 42751,
+          "title": "Butterfly",
+          "artist": "Delicate Steve",
+          "url": "music/42751.mp3"
+        },
+        {
+          "id": 42377,
+          "title": "Night Owl",
+          "artist": "Broke For Free",
+          "url": "music/42377.mp3"
+        },
+        {
+          "id": 11773,
+          "title": "05 Too Complex Instrumental     {6th Sense & The Kid Daytona}.mp3",
+          "artist": "6th Sense",
+          "url": "music/11773.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 169,
+      "name": "Rockabilly",
+      "line_id": 9,
+      "playlist": [
+        {
+          "id": 62751,
+          "title": "Birthday Cake",
+          "artist": "Jahzzar",
+          "url": "music/62751.mp3"
+        },
+        {
+          "id": 86761,
+          "title": "Be Sweet",
+          "artist": "Marco Trovatello",
+          "url": "music/86761.mp3"
+        },
+        {
+          "id": 85791,
+          "title": "The Profiteers",
+          "artist": "Rations",
+          "url": "music/85791.mp3"
+        },
+        {
+          "id": 55718,
+          "title": "Kopeika",
+          "artist": "et_",
+          "url": "music/55718.mp3"
+        },
+        {
+          "id": 31040,
+          "title": "Hallon",
+          "artist": "Christian Bjoerklund",
+          "url": "music/31040.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 651,
+      "name": "Country & Western",
+      "line_id": 9,
+      "playlist": [
+        {
+          "id": 18197,
+          "title": "Happening for Lulu",
+          "artist": "Kraus",
+          "url": "music/18197.mp3"
+        },
+        {
+          "id": 20296,
+          "title": "Part 3",
+          "artist": "Sikhara",
+          "url": "music/20296.mp3"
+        },
+        {
+          "id": 58341,
+          "title": "Oh Wee",
+          "artist": "Immortal Beats",
+          "url": "music/58341.mp3"
+        },
+        {
+          "id": 22295,
+          "title": "Sorry",
+          "artist": "Comfort Fit",
+          "url": "music/22295.mp3"
+        },
+        {
+          "id": 42377,
+          "title": "Night Owl",
+          "artist": "Broke For Free",
+          "url": "music/42377.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 76,
+      "name": "Experimental Pop",
+      "line_id": 10,
+      "playlist": [
+        {
+          "id": 21404,
+          "title": "Island Grows",
+          "artist": "Airships",
+          "url": "music/21404.mp3"
+        },
+        {
+          "id": 17345,
+          "title": "Pop song",
+          "artist": "No Nature",
+          "url": "music/17345.mp3"
+        },
+        {
+          "id": 3534,
+          "title": "Cosmic Sing-a-long",
+          "artist": "Cryptacize",
+          "url": "music/3534.mp3"
+        },
+        {
+          "id": 19417,
+          "title": "City Turtles",
+          "artist": "Orquestra Popular De Paio Pires",
+          "url": "music/19417.mp3"
+        },
+        {
+          "id": 22000,
+          "title": "kolorowe wody",
+          "artist": "Katapulto",
+          "url": "music/22000.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 362,
+      "name": "Synth Pop",
+      "line_id": 10,
+      "playlist": [
+        {
+          "id": 21676,
+          "title": "Life is Glass",
+          "artist": "Guidance Counselor",
+          "url": "music/21676.mp3"
+        },
+        {
+          "id": 35544,
+          "title": "Facing the Sea",
+          "artist": "Garmisch",
+          "url": "music/35544.mp3"
+        },
+        {
+          "id": 42911,
+          "title": "MEDICAL SEX",
+          "artist": "Phemale",
+          "url": "music/42911.mp3"
+        },
+        {
+          "id": 28480,
+          "title": "Will Be A Dream",
+          "artist": "The Pop Winds",
+          "url": "music/28480.mp3"
+        },
+        {
+          "id": 36616,
+          "title": "three horses",
+          "artist": "Amil Byleckie",
+          "url": "music/36616.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 25,
+      "name": "Punk",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 7872,
+          "title": "Saved",
+          "artist": "Boss Hog",
+          "url": "music/7872.mp3"
+        },
+        {
+          "id": 5006,
+          "title": "So Long, Silver Lining",
+          "artist": "New Bomb Turks",
+          "url": "music/5006.mp3"
+        },
+        {
+          "id": 54735,
+          "title": "Drums Over London",
+          "artist": "Disco Zombies",
+          "url": "music/54735.mp3"
+        },
+        {
+          "id": 50449,
+          "title": "Interview",
+          "artist": "Milk Music",
+          "url": "music/50449.mp3"
+        },
+        {
+          "id": 57500,
+          "title": "Girl",
+          "artist": "Barreracudas",
+          "url": "music/57500.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 26,
+      "name": "Post-Rock",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 108504,
+          "title": "Lewy",
+          "artist": "Botinki Ra",
+          "url": "music/108504.mp3"
+        },
+        {
+          "id": 114395,
+          "title": "Reflections Across The Sky",
+          "artist": "Scott Holmes",
+          "url": "music/114395.mp3"
+        },
+        {
+          "id": 86761,
+          "title": "Be Sweet",
+          "artist": "Marco Trovatello",
+          "url": "music/86761.mp3"
+        },
+        {
+          "id": 110980,
+          "title": "Time Forward",
+          "artist": "Antethic",
+          "url": "music/110980.mp3"
+        },
+        {
+          "id": 55709,
+          "title": "11",
+          "artist": "et_",
+          "url": "music/55709.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 27,
+      "name": "Lo-Fi",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 140043,
+          "title": "Miss You Miss Mew",
+          "artist": "The Blessed Cassettes",
+          "url": "music/140043.mp3"
+        },
+        {
+          "id": 112735,
+          "title": "Reign of Incontestable Greatness",
+          "artist": "Is",
+          "url": "music/112735.mp3"
+        },
+        {
+          "id": 66537,
+          "title": "Cold Spot",
+          "artist": "Waylon Thornton",
+          "url": "music/66537.mp3"
+        },
+        {
+          "id": 129046,
+          "title": "Say You Are Mine",
+          "artist": "One Watt Of Love",
+          "url": "music/129046.mp3"
+        },
+        {
+          "id": 109350,
+          "title": "Lost Holiday",
+          "artist": "TIGERBERRY",
+          "url": "music/109350.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 31,
+      "name": "Metal",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 63471,
+          "title": "Goliath",
+          "artist": "Mutilation Rites",
+          "url": "music/63471.mp3"
+        },
+        {
+          "id": 40133,
+          "title": "Two Headed Baby",
+          "artist": "Behold! The Living Corpse",
+          "url": "music/40133.mp3"
+        },
+        {
+          "id": 47471,
+          "title": "Weed Wolf",
+          "artist": "Elks",
+          "url": "music/47471.mp3"
+        },
+        {
+          "id": 99345,
+          "title": "Bitter Pill (feat Vosmoy)",
+          "artist": "Still Pluto",
+          "url": "music/99345.mp3"
+        },
+        {
+          "id": 71620,
+          "title": "09 Metal",
+          "artist": "NanowaR",
+          "url": "music/71620.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 36,
+      "name": "Krautrock",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 116547,
+          "title": "Waiting",
+          "artist": "Andrew Howes",
+          "url": "music/116547.mp3"
+        },
+        {
+          "id": 48763,
+          "title": "Hive Burner",
+          "artist": "Sun Araw",
+          "url": "music/48763.mp3"
+        },
+        {
+          "id": 127339,
+          "title": "Nine Stones",
+          "artist": "Andrew Howes",
+          "url": "music/127339.mp3"
+        },
+        {
+          "id": 149523,
+          "title": "The Slowness of Sloths",
+          "artist": "Dee Zee",
+          "url": "music/149523.mp3"
+        },
+        {
+          "id": 18887,
+          "title": "Best Friend",
+          "artist": "Seek Six Sick",
+          "url": "music/18887.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 45,
+      "name": "Loud-Rock",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 145608,
+          "title": "This Cursed Hope",
+          "artist": "The One They Fear",
+          "url": "music/145608.mp3"
+        },
+        {
+          "id": 145610,
+          "title": "Wolves",
+          "artist": "The One They Fear",
+          "url": "music/145610.mp3"
+        },
+        {
+          "id": 112733,
+          "title": "Forsaken",
+          "artist": "Is",
+          "url": "music/112733.mp3"
+        },
+        {
+          "id": 123278,
+          "title": "Turf (Raw - Live)",
+          "artist": "STYPTIC",
+          "url": "music/123278.mp3"
+        },
+        {
+          "id": 75230,
+          "title": "Steps",
+          "artist": "Aching Beauty",
+          "url": "music/75230.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 58,
+      "name": "Psych-Rock",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 54163,
+          "title": "Ratas",
+          "artist": "San Pedro El Cortez",
+          "url": "music/54163.mp3"
+        },
+        {
+          "id": 26641,
+          "title": "05",
+          "artist": "Flowerheads",
+          "url": "music/26641.mp3"
+        },
+        {
+          "id": 41961,
+          "title": "Chasmaeon",
+          "artist": "Ga'an",
+          "url": "music/41961.mp3"
+        },
+        {
+          "id": 48763,
+          "title": "Hive Burner",
+          "artist": "Sun Araw",
+          "url": "music/48763.mp3"
+        },
+        {
+          "id": 42761,
+          "title": "BLACK FOREST",
+          "artist": "voyageurs",
+          "url": "music/42761.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 66,
+      "name": "Indie-Rock",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 57662,
+          "title": "Down Low",
+          "artist": "Shark?",
+          "url": "music/57662.mp3"
+        },
+        {
+          "id": 62458,
+          "title": "Out of School",
+          "artist": "Jahzzar",
+          "url": "music/62458.mp3"
+        },
+        {
+          "id": 21859,
+          "title": "Alchemy Lab",
+          "artist": "Paint and Copter",
+          "url": "music/21859.mp3"
+        },
+        {
+          "id": 47921,
+          "title": "Eclectic Prawn",
+          "artist": "Dumbo Gets Mad",
+          "url": "music/47921.mp3"
+        },
+        {
+          "id": 825,
+          "title": "Death March",
+          "artist": "Here Comes A Big Black Cloud!!",
+          "url": "music/825.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 70,
+      "name": "Industrial",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 10674,
+          "title": "Lights in the Sky",
+          "artist": "Nine Inch Nails",
+          "url": "music/10674.mp3"
+        },
+        {
+          "id": 105145,
+          "title": "Sleepwalkers (remixed by Waste Disposal Machine)",
+          "artist": "Mikroben Krieg",
+          "url": "music/105145.mp3"
+        },
+        {
+          "id": 113511,
+          "title": "Dark Spots",
+          "artist": "A Crooked Pulse",
+          "url": "music/113511.mp3"
+        },
+        {
+          "id": 105141,
+          "title": "Debris",
+          "artist": "Waste Disposal Machine",
+          "url": "music/105141.mp3"
+        },
+        {
+          "id": 105144,
+          "title": "I Sing the Body Electric (remixed by Torsion)",
+          "artist": "Waste Disposal Machine",
+          "url": "music/105144.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 85,
+      "name": "Garage",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 57500,
+          "title": "Girl",
+          "artist": "Barreracudas",
+          "url": "music/57500.mp3"
+        },
+        {
+          "id": 71719,
+          "title": "Walked Too Deep",
+          "artist": "Black Tia",
+          "url": "music/71719.mp3"
+        },
+        {
+          "id": 99411,
+          "title": "Guts",
+          "artist": "Pampers",
+          "url": "music/99411.mp3"
+        },
+        {
+          "id": 28072,
+          "title": "Nice to Know You",
+          "artist": "Bare Wires",
+          "url": "music/28072.mp3"
+        },
+        {
+          "id": 73193,
+          "title": "Commie Cunt",
+          "artist": "Foster Care",
+          "url": "music/73193.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 88,
+      "name": "New Wave",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 11264,
+          "title": "My Fair Lady",
+          "artist": "David Byrne",
+          "url": "music/11264.mp3"
+        },
+        {
+          "id": 123832,
+          "title": "Drawn by the Stars",
+          "artist": "Mesmerists",
+          "url": "music/123832.mp3"
+        },
+        {
+          "id": 138311,
+          "title": "Down At The Beach",
+          "artist": "Big White",
+          "url": "music/138311.mp3"
+        },
+        {
+          "id": 111335,
+          "title": "springtide",
+          "artist": "springtide",
+          "url": "music/111335.mp3"
+        },
+        {
+          "id": 145258,
+          "title": "Left The Building",
+          "artist": "Lonely Punk",
+          "url": "music/145258.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 98,
+      "name": "Progressive",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 127339,
+          "title": "Nine Stones",
+          "artist": "Andrew Howes",
+          "url": "music/127339.mp3"
+        },
+        {
+          "id": 61814,
+          "title": "MY NAME IS",
+          "artist": "Kalashnikov",
+          "url": "music/61814.mp3"
+        },
+        {
+          "id": 129399,
+          "title": "Don't You Think It's Time?",
+          "artist": "Andy G. Cohen",
+          "url": "music/129399.mp3"
+        },
+        {
+          "id": 61492,
+          "title": "No.02",
+          "artist": "Room For A Ghost",
+          "url": "music/61492.mp3"
+        },
+        {
+          "id": 61491,
+          "title": "Burn",
+          "artist": "Room For A Ghost",
+          "url": "music/61491.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 314,
+      "name": "Goth",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 130691,
+          "title": "Dark Path",
+          "artist": "Cryosyncopy",
+          "url": "music/130691.mp3"
+        },
+        {
+          "id": 106567,
+          "title": "Tube Top Language",
+          "artist": "Apache Tomcat",
+          "url": "music/106567.mp3"
+        },
+        {
+          "id": 108970,
+          "title": "Universal Brain",
+          "artist": "The Judy Blooms",
+          "url": "music/108970.mp3"
+        },
+        {
+          "id": 110417,
+          "title": "The Great Show",
+          "artist": "Vows",
+          "url": "music/110417.mp3"
+        },
+        {
+          "id": 71719,
+          "title": "Walked Too Deep",
+          "artist": "Black Tia",
+          "url": "music/71719.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 359,
+      "name": "Shoegaze",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 130016,
+          "title": "A Sport & A Pastime",
+          "artist": "Camden",
+          "url": "music/130016.mp3"
+        },
+        {
+          "id": 94093,
+          "title": "prologue: in recollection and amazement",
+          "artist": "Westy Reflector",
+          "url": "music/94093.mp3"
+        },
+        {
+          "id": 53807,
+          "title": "Dull Light",
+          "artist": "Sex Church",
+          "url": "music/53807.mp3"
+        },
+        {
+          "id": 48999,
+          "title": "Dark Horse",
+          "artist": "The Great Wilderness",
+          "url": "music/48999.mp3"
+        },
+        {
+          "id": 126295,
+          "title": "Living on the Wind",
+          "artist": "Andy G. Cohen",
+          "url": "music/126295.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 440,
+      "name": "Rock Opera",
+      "line_id": 12,
+      "playlist": [
+        {
+          "id": 45475,
+          "title": "Jungle Law",
+          "artist": "Original Innocence",
+          "url": "music/45475.mp3"
+        },
+        {
+          "id": 137212,
+          "title": "1984",
+          "artist": "Punk Rock Opera",
+          "url": "music/137212.mp3"
+        },
+        {
+          "id": 149417,
+          "title": "Nerve Damage",
+          "artist": "Punk Rock Opera",
+          "url": "music/149417.mp3"
+        },
+        {
+          "id": 19187,
+          "title": "War Is a Bitch",
+          "artist": "Special Moments",
+          "url": "music/19187.mp3"
+        },
+        {
+          "id": 137214,
+          "title": "Generation X",
+          "artist": "Punk Rock Opera",
+          "url": "music/137214.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 170,
+      "name": "Easy Listening: Vocal",
+      "line_id": 13,
+      "playlist": [
+        {
+          "id": 69194,
+          "title": "Memories Of Thailand (Beat Doctor's 'stuck in Britain' remix)",
+          "artist": "Risey",
+          "url": "music/69194.mp3"
+        },
+        {
+          "id": 26605,
+          "title": "\"Ella Fitzgerald\" by James A. Emanuel",
+          "artist": "Lezet",
+          "url": "music/26605.mp3"
+        },
+        {
+          "id": 73495,
+          "title": "Mariachi Bandits of Gatling Gun Ridge",
+          "artist": "krackatoa",
+          "url": "music/73495.mp3"
+        },
+        {
+          "id": 42751,
+          "title": "Butterfly",
+          "artist": "Delicate Steve",
+          "url": "music/42751.mp3"
+        },
+        {
+          "id": 95722,
+          "title": "Adventure, Darling",
+          "artist": "Gillicuddy",
+          "url": "music/95722.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 311,
+      "name": "Lounge",
+      "line_id": 13,
+      "playlist": [
+        {
+          "id": 42751,
+          "title": "Butterfly",
+          "artist": "Delicate Steve",
+          "url": "music/42751.mp3"
+        },
+        {
+          "id": 53457,
+          "title": "Forever falling up",
+          "artist": "Fanas",
+          "url": "music/53457.mp3"
+        },
+        {
+          "id": 69170,
+          "title": "Enthusiast",
+          "artist": "Tours",
+          "url": "music/69170.mp3"
+        },
+        {
+          "id": 126666,
+          "title": "Graceland Cemetery",
+          "artist": "Sleep Out",
+          "url": "music/126666.mp3"
+        },
+        {
+          "id": 31040,
+          "title": "Hallon",
+          "artist": "Christian Bjoerklund",
+          "url": "music/31040.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 810,
+      "name": "Nu-Jazz",
+      "line_id": 13,
+      "playlist": [
+        {
+          "id": 1482,
+          "title": "Reindeer Dance",
+          "artist": "Rainbro",
+          "url": "music/1482.mp3"
+        },
+        {
+          "id": 42751,
+          "title": "Butterfly",
+          "artist": "Delicate Steve",
+          "url": "music/42751.mp3"
+        },
+        {
+          "id": 56874,
+          "title": "Midori",
+          "artist": "Beat Culture",
+          "url": "music/56874.mp3"
+        },
+        {
+          "id": 31040,
+          "title": "Hallon",
+          "artist": "Christian Bjoerklund",
+          "url": "music/31040.mp3"
+        },
+        {
+          "id": 61492,
+          "title": "No.02",
+          "artist": "Room For A Ghost",
+          "url": "music/61492.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 11,
+      "name": "Disco",
+      "line_id": 14,
+      "playlist": [
+        {
+          "id": 69209,
+          "title": "Night Beach",
+          "artist": "Psychadelik Pedestrian",
+          "url": "music/69209.mp3"
+        },
+        {
+          "id": 84202,
+          "title": "Illuminations (radio edit)",
+          "artist": "Lee Rosevere",
+          "url": "music/84202.mp3"
+        },
+        {
+          "id": 55718,
+          "title": "Kopeika",
+          "artist": "et_",
+          "url": "music/55718.mp3"
+        },
+        {
+          "id": 63065,
+          "title": "Starkey",
+          "artist": "Koona",
+          "url": "music/63065.mp3"
+        },
+        {
+          "id": 36435,
+          "title": "Please Mind the Dubstep",
+          "artist": "Bitbasic",
+          "url": "music/36435.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 19,
+      "name": "Funk",
+      "line_id": 14,
+      "playlist": [
+        {
+          "id": 68898,
+          "title": "Like Swimming",
+          "artist": "Broke For Free",
+          "url": "music/68898.mp3"
+        },
+        {
+          "id": 84195,
+          "title": "Squinting at the Sun (radio edit)",
+          "artist": "Lee Rosevere",
+          "url": "music/84195.mp3"
+        },
+        {
+          "id": 69209,
+          "title": "Night Beach",
+          "artist": "Psychadelik Pedestrian",
+          "url": "music/69209.mp3"
+        },
+        {
+          "id": 61492,
+          "title": "No.02",
+          "artist": "Room For A Ghost",
+          "url": "music/61492.mp3"
+        },
+        {
+          "id": 42751,
+          "title": "Butterfly",
+          "artist": "Delicate Steve",
+          "url": "music/42751.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 42,
+      "name": "Ambient Electronic",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 65488,
+          "title": "Colorful Lights",
+          "artist": "Sad Soul Circus",
+          "url": "music/65488.mp3"
+        },
+        {
+          "id": 66689,
+          "title": "July.#04",
+          "artist": "arizono kazuhiro",
+          "url": "music/66689.mp3"
+        },
+        {
+          "id": 68582,
+          "title": "In The Streets",
+          "artist": "Indian Wells",
+          "url": "music/68582.mp3"
+        },
+        {
+          "id": 36144,
+          "title": "Apollo Wakes",
+          "artist": "Shatterfreak",
+          "url": "music/36144.mp3"
+        },
+        {
+          "id": 66076,
+          "title": "Amsterdam",
+          "artist": "LASERS",
+          "url": "music/66076.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 181,
+      "name": "Techno",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 27667,
+          "title": "Deep Performance",
+          "artist": "Gradient",
+          "url": "music/27667.mp3"
+        },
+        {
+          "id": 52628,
+          "title": "Vanishing Horizon",
+          "artist": "Jason Shaw",
+          "url": "music/52628.mp3"
+        },
+        {
+          "id": 52637,
+          "title": "Feels Good 2 B",
+          "artist": "Jason Shaw",
+          "url": "music/52637.mp3"
+        },
+        {
+          "id": 84777,
+          "title": "Nothings Wrong (Shufflin' Edit)",
+          "artist": "Howse",
+          "url": "music/84777.mp3"
+        },
+        {
+          "id": 52646,
+          "title": "Pyramids",
+          "artist": "Jason Shaw",
+          "url": "music/52646.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 182,
+      "name": "House",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 26653,
+          "title": "Yellow Ocher",
+          "artist": "Graphiqs Groove",
+          "url": "music/26653.mp3"
+        },
+        {
+          "id": 27667,
+          "title": "Deep Performance",
+          "artist": "Gradient",
+          "url": "music/27667.mp3"
+        },
+        {
+          "id": 69199,
+          "title": "Aquarius (Psychadelik Pedestrian remix)",
+          "artist": "Phish Funk",
+          "url": "music/69199.mp3"
+        },
+        {
+          "id": 26659,
+          "title": "Cyanos",
+          "artist": "Graphiqs Groove",
+          "url": "music/26659.mp3"
+        },
+        {
+          "id": 26652,
+          "title": "Bleuacide",
+          "artist": "Graphiqs Groove",
+          "url": "music/26652.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 183,
+      "name": "Glitch",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 130135,
+          "title": "Picnic at the reactor",
+          "artist": "Michett",
+          "url": "music/130135.mp3"
+        },
+        {
+          "id": 130129,
+          "title": "Artificial anxiety",
+          "artist": "Michett",
+          "url": "music/130129.mp3"
+        },
+        {
+          "id": 139954,
+          "title": "Fin",
+          "artist": "E T I L E",
+          "url": "music/139954.mp3"
+        },
+        {
+          "id": 27177,
+          "title": "Quartz Boy",
+          "artist": "Pixelord",
+          "url": "music/27177.mp3"
+        },
+        {
+          "id": 21842,
+          "title": "Tam814",
+          "artist": "LJ Kruzer",
+          "url": "music/21842.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 184,
+      "name": "Minimal Electronic",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 38878,
+          "title": "Traveller",
+          "artist": "Anders Ilar",
+          "url": "music/38878.mp3"
+        },
+        {
+          "id": 91088,
+          "title": "CORTE_COSTURA",
+          "artist": "URB",
+          "url": "music/91088.mp3"
+        },
+        {
+          "id": 84198,
+          "title": "Illuminations",
+          "artist": "Lee Rosevere",
+          "url": "music/84198.mp3"
+        },
+        {
+          "id": 86793,
+          "title": "Blocks",
+          "artist": "Dr Freebs",
+          "url": "music/86793.mp3"
+        },
+        {
+          "id": 68683,
+          "title": "Counter-Earth",
+          "artist": "Mean Moon",
+          "url": "music/68683.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 185,
+      "name": "Breakcore - Hard",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 109925,
+          "title": "Blacklisted",
+          "artist": "JTPE",
+          "url": "music/109925.mp3"
+        },
+        {
+          "id": 14063,
+          "title": "Chicken Dance",
+          "artist": "DJ Donna Summer",
+          "url": "music/14063.mp3"
+        },
+        {
+          "id": 89639,
+          "title": "True Romance (Sometimes)",
+          "artist": "Seneca",
+          "url": "music/89639.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 236,
+      "name": "IDM",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 140925,
+          "title": "Set Fire to Creation",
+          "artist": "Nihilore",
+          "url": "music/140925.mp3"
+        },
+        {
+          "id": 33216,
+          "title": "Noi Doi (Silent Strike Remix)",
+          "artist": "Alexandrina",
+          "url": "music/33216.mp3"
+        },
+        {
+          "id": 134359,
+          "title": "Happy for a While",
+          "artist": "Gumbel",
+          "url": "music/134359.mp3"
+        },
+        {
+          "id": 116345,
+          "title": "Should've Been a Hidden Track",
+          "artist": "Csum",
+          "url": "music/116345.mp3"
+        },
+        {
+          "id": 85290,
+          "title": "Her Cold Touch",
+          "artist": "Koalips",
+          "url": "music/85290.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 286,
+      "name": "Trip-Hop",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 73125,
+          "title": "Shock Love (Zengineers Science-Remix)",
+          "artist": "Jeremy Macachor",
+          "url": "music/73125.mp3"
+        },
+        {
+          "id": 70300,
+          "title": "Underwater maze",
+          "artist": "Morsa",
+          "url": "music/70300.mp3"
+        },
+        {
+          "id": 36257,
+          "title": "::Flowers",
+          "artist": "mo-seph",
+          "url": "music/36257.mp3"
+        },
+        {
+          "id": 12189,
+          "title": "Ultraviolence",
+          "artist": "Mr. Moods",
+          "url": "music/12189.mp3"
+        },
+        {
+          "id": 22095,
+          "title": "Restless",
+          "artist": "Just Plain Ant",
+          "url": "music/22095.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 296,
+      "name": "Dance",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 69200,
+          "title": "Force Of Nature (JMD remix)",
+          "artist": "Redmann",
+          "url": "music/69200.mp3"
+        },
+        {
+          "id": 69202,
+          "title": "Turbulence (Psychadelik Pedestrian's chillout remix)",
+          "artist": "Marc Burt",
+          "url": "music/69202.mp3"
+        },
+        {
+          "id": 72210,
+          "title": "\u0627\u0644\u0642\u0630\u0627\u0641\u064a \u0627\u0644\u0627\u0654\u0645\u0627\u0632\u0648\u0646 \u0627\u0644\u062d\u0631\u0633",
+          "artist": "Music For Your Plants",
+          "url": "music/72210.mp3"
+        },
+        {
+          "id": 69209,
+          "title": "Night Beach",
+          "artist": "Psychadelik Pedestrian",
+          "url": "music/69209.mp3"
+        },
+        {
+          "id": 64333,
+          "title": "You Can't Unfeel The Rhythm (DJ JC Radio Edit)",
+          "artist": "Pierlo",
+          "url": "music/64333.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 297,
+      "name": "Chip Music",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 47074,
+          "title": "We're the Resistors",
+          "artist": "Eric Skiff",
+          "url": "music/47074.mp3"
+        },
+        {
+          "id": 29528,
+          "title": "And I know that you're happy (ballad of the lonesome spaceboy)",
+          "artist": "8bit Betty",
+          "url": "music/29528.mp3"
+        },
+        {
+          "id": 47075,
+          "title": "Ascending",
+          "artist": "Eric Skiff",
+          "url": "music/47075.mp3"
+        },
+        {
+          "id": 26861,
+          "title": "yellow cactus",
+          "artist": "I, Cactus",
+          "url": "music/26861.mp3"
+        },
+        {
+          "id": 13708,
+          "title": "Disk Machine",
+          "artist": "Goto80",
+          "url": "music/13708.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 337,
+      "name": "Drum & Bass",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 105411,
+          "title": "Dark Matter",
+          "artist": "Egg Nebula",
+          "url": "music/105411.mp3"
+        },
+        {
+          "id": 91084,
+          "title": "EL_ECTRO",
+          "artist": "URB",
+          "url": "music/91084.mp3"
+        },
+        {
+          "id": 97847,
+          "title": "Unknown Resource",
+          "artist": "Egg Nebula",
+          "url": "music/97847.mp3"
+        },
+        {
+          "id": 91081,
+          "title": "D_BAILE",
+          "artist": "URB",
+          "url": "music/91081.mp3"
+        },
+        {
+          "id": 73125,
+          "title": "Shock Love (Zengineers Science-Remix)",
+          "artist": "Jeremy Macachor",
+          "url": "music/73125.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 468,
+      "name": "Dubstep",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 65038,
+          "title": "Snow Monkeys",
+          "artist": "Candlegravity",
+          "url": "music/65038.mp3"
+        },
+        {
+          "id": 35569,
+          "title": "Education After Auschwitz (Bonus Track)",
+          "artist": "Ion (Romania)",
+          "url": "music/35569.mp3"
+        },
+        {
+          "id": 47659,
+          "title": "Erinnerung (snippet Nina Simone)",
+          "artist": "Haute Culture",
+          "url": "music/47659.mp3"
+        },
+        {
+          "id": 51954,
+          "title": "Beta Stability",
+          "artist": "Tony Dubshot",
+          "url": "music/51954.mp3"
+        },
+        {
+          "id": 66638,
+          "title": "Grief And Sleep",
+          "artist": "Ghosts",
+          "url": "music/66638.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 495,
+      "name": "Downtempo",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 113972,
+          "title": "Your Pulse",
+          "artist": "Little Glass Men",
+          "url": "music/113972.mp3"
+        },
+        {
+          "id": 99041,
+          "title": "Optimus Primal",
+          "artist": "The Polish Ambassador",
+          "url": "music/99041.mp3"
+        },
+        {
+          "id": 125157,
+          "title": "The Far Land",
+          "artist": "Gorowski",
+          "url": "music/125157.mp3"
+        },
+        {
+          "id": 125159,
+          "title": "Reel Life",
+          "artist": "Gorowski",
+          "url": "music/125159.mp3"
+        },
+        {
+          "id": 73369,
+          "title": "Remote",
+          "artist": "Deltason",
+          "url": "music/73369.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 695,
+      "name": "Jungle",
+      "line_id": 15,
+      "playlist": [
+        {
+          "id": 87641,
+          "title": "Level Up",
+          "artist": "Lantriperc",
+          "url": "music/87641.mp3"
+        },
+        {
+          "id": 105411,
+          "title": "Dark Matter",
+          "artist": "Egg Nebula",
+          "url": "music/105411.mp3"
+        },
+        {
+          "id": 105413,
+          "title": "The Jumblist",
+          "artist": "Egg Nebula",
+          "url": "music/105413.mp3"
+        },
+        {
+          "id": 105414,
+          "title": "Vulve",
+          "artist": "Egg Nebula",
+          "url": "music/105414.mp3"
+        },
+        {
+          "id": 105408,
+          "title": "Magical Forest",
+          "artist": "Egg Nebula",
+          "url": "music/105408.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 33,
+      "name": "Psych-Folk",
+      "line_id": 17,
+      "playlist": [
+        {
+          "id": 81083,
+          "title": "Cabinet Of Curiosities",
+          "artist": "Jacco Gardner",
+          "url": "music/81083.mp3"
+        },
+        {
+          "id": 85691,
+          "title": "Finding The Butterfly",
+          "artist": "Alexander Turnquist",
+          "url": "music/85691.mp3"
+        },
+        {
+          "id": 21087,
+          "title": "part1",
+          "artist": "Hall Of Fame",
+          "url": "music/21087.mp3"
+        },
+        {
+          "id": 57640,
+          "title": "Swingin' Low",
+          "artist": "Melaena Cadiz",
+          "url": "music/57640.mp3"
+        },
+        {
+          "id": 12348,
+          "title": "Fools With Tools",
+          "artist": "Koonda Holaa",
+          "url": "music/12348.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 49,
+      "name": "Free-Folk",
+      "line_id": 17,
+      "playlist": [
+        {
+          "id": 96696,
+          "title": "My Boat",
+          "artist": "Melissa Laveaux",
+          "url": "music/96696.mp3"
+        },
+        {
+          "id": 58135,
+          "title": "Feelin' Down",
+          "artist": "John Bellows",
+          "url": "music/58135.mp3"
+        },
+        {
+          "id": 890,
+          "title": "Softly Tomorrow",
+          "artist": "Ilyas Ahmed",
+          "url": "music/890.mp3"
+        },
+        {
+          "id": 38363,
+          "title": "Conclusion",
+          "artist": "A Way",
+          "url": "music/38363.mp3"
+        },
+        {
+          "id": 96693,
+          "title": "Move On",
+          "artist": "Melissa Laveaux",
+          "url": "music/96693.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 94,
+      "name": "Freak-Folk",
+      "line_id": 17,
+      "playlist": [
+        {
+          "id": 47663,
+          "title": "me aborrezco cada vez que llego tarde",
+          "artist": "Onda bid\u00f3n",
+          "url": "music/47663.mp3"
+        },
+        {
+          "id": 75869,
+          "title": "26. Whistling",
+          "artist": "Jonah Rapino",
+          "url": "music/75869.mp3"
+        },
+        {
+          "id": 31356,
+          "title": "Toot Toot",
+          "artist": "Spectre Folk",
+          "url": "music/31356.mp3"
+        },
+        {
+          "id": 140788,
+          "title": "Souk Amour",
+          "artist": "NaDa BaBa",
+          "url": "music/140788.mp3"
+        },
+        {
+          "id": 47662,
+          "title": "alexandra",
+          "artist": "Onda bid\u00f3n",
+          "url": "music/47662.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 103,
+      "name": "Singer-Songwriter",
+      "line_id": 17,
+      "playlist": [
+        {
+          "id": 52947,
+          "title": "Little King",
+          "artist": "Marissa Nadler",
+          "url": "music/52947.mp3"
+        },
+        {
+          "id": 10577,
+          "title": "One Mile From Heaven (short version)",
+          "artist": "Bobb Trimble",
+          "url": "music/10577.mp3"
+        },
+        {
+          "id": 7711,
+          "title": "The Way",
+          "artist": "Mia Doi Todd",
+          "url": "music/7711.mp3"
+        },
+        {
+          "id": 5940,
+          "title": "When It Rains",
+          "artist": "Howard Fishman",
+          "url": "music/5940.mp3"
+        },
+        {
+          "id": 52951,
+          "title": "Alabaster Queen",
+          "artist": "Marissa Nadler",
+          "url": "music/52951.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 180,
+      "name": "British Folk",
+      "line_id": 17,
+      "playlist": [
+        {
+          "id": 97585,
+          "title": "Loose Change",
+          "artist": "Olivia Chaney",
+          "url": "music/97585.mp3"
+        },
+        {
+          "id": 153946,
+          "title": "Hey, that's not normal",
+          "artist": "Robert Farmer",
+          "url": "music/153946.mp3"
+        },
+        {
+          "id": 97586,
+          "title": "Waxwing",
+          "artist": "Olivia Chaney",
+          "url": "music/97586.mp3"
+        },
+        {
+          "id": 147295,
+          "title": "Meadow Siren",
+          "artist": "Greg Atkinson",
+          "url": "music/147295.mp3"
+        },
+        {
+          "id": 97588,
+          "title": "The Brookland Road",
+          "artist": "Olivia Chaney",
+          "url": "music/97588.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 7,
+      "name": "Comedy",
+      "line_id": 20,
+      "playlist": [
+        {
+          "id": 84195,
+          "title": "Squinting at the Sun (radio edit)",
+          "artist": "Lee Rosevere",
+          "url": "music/84195.mp3"
+        },
+        {
+          "id": 54033,
+          "title": "Snow Wave",
+          "artist": "alright lover",
+          "url": "music/54033.mp3"
+        },
+        {
+          "id": 26605,
+          "title": "\"Ella Fitzgerald\" by James A. Emanuel",
+          "artist": "Lezet",
+          "url": "music/26605.mp3"
+        },
+        {
+          "id": 84202,
+          "title": "Illuminations (radio edit)",
+          "artist": "Lee Rosevere",
+          "url": "music/84202.mp3"
+        },
+        {
+          "id": 53457,
+          "title": "Forever falling up",
+          "artist": "Fanas",
+          "url": "music/53457.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 65,
+      "name": "Radio",
+      "line_id": 20,
+      "playlist": [
+        {
+          "id": 73495,
+          "title": "Mariachi Bandits of Gatling Gun Ridge",
+          "artist": "krackatoa",
+          "url": "music/73495.mp3"
+        },
+        {
+          "id": 54033,
+          "title": "Snow Wave",
+          "artist": "alright lover",
+          "url": "music/54033.mp3"
+        },
+        {
+          "id": 74706,
+          "title": "Fall asleep under the millions of stars (Instrumental)",
+          "artist": "springtide",
+          "url": "music/74706.mp3"
+        },
+        {
+          "id": 26605,
+          "title": "\"Ella Fitzgerald\" by James A. Emanuel",
+          "artist": "Lezet",
+          "url": "music/26605.mp3"
+        },
+        {
+          "id": 85791,
+          "title": "The Profiteers",
+          "artist": "Rations",
+          "url": "music/85791.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 138,
+      "name": "Spoken Weird",
+      "line_id": 20,
+      "playlist": [
+        {
+          "id": 62751,
+          "title": "Birthday Cake",
+          "artist": "Jahzzar",
+          "url": "music/62751.mp3"
+        },
+        {
+          "id": 61492,
+          "title": "No.02",
+          "artist": "Room For A Ghost",
+          "url": "music/61492.mp3"
+        },
+        {
+          "id": 126666,
+          "title": "Graceland Cemetery",
+          "artist": "Sleep Out",
+          "url": "music/126666.mp3"
+        },
+        {
+          "id": 74706,
+          "title": "Fall asleep under the millions of stars (Instrumental)",
+          "artist": "springtide",
+          "url": "music/74706.mp3"
+        },
+        {
+          "id": 24425,
+          "title": "Fater Lee",
+          "artist": "Black Ant",
+          "url": "music/24425.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 188,
+      "name": "Poetry",
+      "line_id": 20,
+      "playlist": [
+        {
+          "id": 95722,
+          "title": "Adventure, Darling",
+          "artist": "Gillicuddy",
+          "url": "music/95722.mp3"
+        },
+        {
+          "id": 10,
+          "title": "Freeway",
+          "artist": "Kurt Vile",
+          "url": "music/10.mp3"
+        },
+        {
+          "id": 69170,
+          "title": "Enthusiast",
+          "artist": "Tours",
+          "url": "music/69170.mp3"
+        },
+        {
+          "id": 29044,
+          "title": "ekiti son feat valeska - april deegee rmx",
+          "artist": "Digi G'Alessio",
+          "url": "music/29044.mp3"
+        },
+        {
+          "id": 11773,
+          "title": "05 Too Complex Instrumental     {6th Sense & The Kid Daytona}.mp3",
+          "artist": "6th Sense",
+          "url": "music/11773.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 374,
+      "name": "Banter",
+      "line_id": 20,
+      "playlist": [
+        {
+          "id": 84195,
+          "title": "Squinting at the Sun (radio edit)",
+          "artist": "Lee Rosevere",
+          "url": "music/84195.mp3"
+        },
+        {
+          "id": 126666,
+          "title": "Graceland Cemetery",
+          "artist": "Sleep Out",
+          "url": "music/126666.mp3"
+        },
+        {
+          "id": 54662,
+          "title": "Horses With Fake Legs",
+          "artist": "Noisewaves",
+          "url": "music/54662.mp3"
+        },
+        {
+          "id": 73760,
+          "title": "IMF",
+          "artist": "Dot",
+          "url": "music/73760.mp3"
+        },
+        {
+          "id": 89192,
+          "title": "Raro Bueno",
+          "artist": "Chuzausen",
+          "url": "music/89192.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 378,
+      "name": "Spoken Word",
+      "line_id": 20,
+      "playlist": [
+        {
+          "id": 84417,
+          "title": "Snow Eater",
+          "artist": "OWL BRAIN ATLAS",
+          "url": "music/84417.mp3"
+        },
+        {
+          "id": 80833,
+          "title": "kind gentle beautiful person",
+          "artist": "Origami Repetika",
+          "url": "music/80833.mp3"
+        },
+        {
+          "id": 73495,
+          "title": "Mariachi Bandits of Gatling Gun Ridge",
+          "artist": "krackatoa",
+          "url": "music/73495.mp3"
+        },
+        {
+          "id": 54662,
+          "title": "Horses With Fake Legs",
+          "artist": "Noisewaves",
+          "url": "music/54662.mp3"
+        },
+        {
+          "id": 57820,
+          "title": "Four, Floss, Five, Six",
+          "artist": "Blue Ducks",
+          "url": "music/57820.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 428,
+      "name": "Radio Theater",
+      "line_id": 20,
+      "playlist": [
+        {
+          "id": 54662,
+          "title": "Horses With Fake Legs",
+          "artist": "Noisewaves",
+          "url": "music/54662.mp3"
+        },
+        {
+          "id": 23010,
+          "title": "Stereo-vision radio",
+          "artist": "Monopole",
+          "url": "music/23010.mp3"
+        },
+        {
+          "id": 126666,
+          "title": "Graceland Cemetery",
+          "artist": "Sleep Out",
+          "url": "music/126666.mp3"
+        },
+        {
+          "id": 56874,
+          "title": "Midori",
+          "artist": "Beat Culture",
+          "url": "music/56874.mp3"
+        },
+        {
+          "id": 69194,
+          "title": "Memories Of Thailand (Beat Doctor's 'stuck in Britain' remix)",
+          "artist": "Risey",
+          "url": "music/69194.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 465,
+      "name": "Musical Theater",
+      "line_id": 20,
+      "playlist": [
+        {
+          "id": 69209,
+          "title": "Night Beach",
+          "artist": "Psychadelik Pedestrian",
+          "url": "music/69209.mp3"
+        },
+        {
+          "id": 58341,
+          "title": "Oh Wee",
+          "artist": "Immortal Beats",
+          "url": "music/58341.mp3"
+        },
+        {
+          "id": 69170,
+          "title": "Enthusiast",
+          "artist": "Tours",
+          "url": "music/69170.mp3"
+        },
+        {
+          "id": 66076,
+          "title": "Amsterdam",
+          "artist": "LASERS",
+          "url": "music/66076.mp3"
+        },
+        {
+          "id": 69194,
+          "title": "Memories Of Thailand (Beat Doctor's 'stuck in Britain' remix)",
+          "artist": "Risey",
+          "url": "music/69194.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 83,
+      "name": "Nerdcore",
+      "line_id": 21,
+      "playlist": [
+        {
+          "id": 142671,
+          "title": "Silverdirt",
+          "artist": "J1*",
+          "url": "music/142671.mp3"
+        },
+        {
+          "id": 78839,
+          "title": "Cascos",
+          "artist": "Stray",
+          "url": "music/78839.mp3"
+        },
+        {
+          "id": 142669,
+          "title": "Mello Hello",
+          "artist": "J1*",
+          "url": "music/142669.mp3"
+        },
+        {
+          "id": 142666,
+          "title": "Floridian Fighting Bear",
+          "artist": "J1*",
+          "url": "music/142666.mp3"
+        },
+        {
+          "id": 78845,
+          "title": "Nuvem M\u00e1gica",
+          "artist": "Stray",
+          "url": "music/78845.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 100,
+      "name": "Alternative Hip-Hop",
+      "line_id": 21,
+      "playlist": [
+        {
+          "id": 78848,
+          "title": "Sola Vermelha",
+          "artist": "Stray",
+          "url": "music/78848.mp3"
+        },
+        {
+          "id": 78841,
+          "title": "Martelo das Feiticeiras",
+          "artist": "Stray",
+          "url": "music/78841.mp3"
+        },
+        {
+          "id": 71231,
+          "title": "Perspectivas",
+          "artist": "J-K",
+          "url": "music/71231.mp3"
+        },
+        {
+          "id": 71250,
+          "title": "N\u00e3o D\u00e1 (feat. Prodigio)",
+          "artist": "Dengaz",
+          "url": "music/71250.mp3"
+        },
+        {
+          "id": 71253,
+          "title": "Homem Sem Alma",
+          "artist": "Dengaz",
+          "url": "music/71253.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 539,
+      "name": "Rap",
+      "line_id": 21,
+      "playlist": [
+        {
+          "id": 75395,
+          "title": "Struggle (Remix)",
+          "artist": "Kellee Maize",
+          "url": "music/75395.mp3"
+        },
+        {
+          "id": 75398,
+          "title": "Pulse",
+          "artist": "Kellee Maize",
+          "url": "music/75398.mp3"
+        },
+        {
+          "id": 70206,
+          "title": "L.O.I.",
+          "artist": "Spray Lodge",
+          "url": "music/70206.mp3"
+        },
+        {
+          "id": 69824,
+          "title": "Lucky you (Digi G'Alessio remix remix)",
+          "artist": "Infinite Livez",
+          "url": "music/69824.mp3"
+        },
+        {
+          "id": 75396,
+          "title": "Something Sacred",
+          "artist": "Kellee Maize",
+          "url": "music/75396.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 542,
+      "name": "Breakbeat",
+      "line_id": 21,
+      "playlist": [
+        {
+          "id": 70775,
+          "title": "Basic Time Slicer (Spliced Mix)",
+          "artist": "S.J. Mellia",
+          "url": "music/70775.mp3"
+        },
+        {
+          "id": 129806,
+          "title": "Oak Bloke",
+          "artist": "Captive Portal",
+          "url": "music/129806.mp3"
+        },
+        {
+          "id": 70774,
+          "title": "Murder Death Kill (Beat Breaker Mix)",
+          "artist": "S.J. Mellia",
+          "url": "music/70774.mp3"
+        },
+        {
+          "id": 70768,
+          "title": "FluffSkull",
+          "artist": "S.J. Mellia",
+          "url": "music/70768.mp3"
+        },
+        {
+          "id": 32686,
+          "title": "Class",
+          "artist": "transient",
+          "url": "music/32686.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 580,
+      "name": "Abstract Hip-Hop",
+      "line_id": 21,
+      "playlist": [
+        {
+          "id": 149623,
+          "title": "Boy Bye",
+          "artist": "Abdu Ali",
+          "url": "music/149623.mp3"
+        },
+        {
+          "id": 148032,
+          "title": "WitchCraft",
+          "artist": "BoyHoodBuchi",
+          "url": "music/148032.mp3"
+        },
+        {
+          "id": 148028,
+          "title": "Disco From The Clouds",
+          "artist": "BoyHoodBuchi",
+          "url": "music/148028.mp3"
+        },
+        {
+          "id": 149626,
+          "title": "I, Exist",
+          "artist": "Abdu Ali",
+          "url": "music/149626.mp3"
+        },
+        {
+          "id": 149625,
+          "title": "Keep Moving (Negro Kai)",
+          "artist": "Abdu Ali",
+          "url": "music/149625.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 693,
+      "name": "Wonky",
+      "line_id": 21,
+      "playlist": [
+        {
+          "id": 44952,
+          "title": "Opening para Songo 21",
+          "artist": "SONGO 21",
+          "url": "music/44952.mp3"
+        },
+        {
+          "id": 28553,
+          "title": "Lullaby",
+          "artist": "_ghost",
+          "url": "music/28553.mp3"
+        },
+        {
+          "id": 54159,
+          "title": "11 strANGE Ls",
+          "artist": "Mark Neil",
+          "url": "music/54159.mp3"
+        },
+        {
+          "id": 64593,
+          "title": "Barranquilla Tiene Un  Swing",
+          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "url": "music/64593.mp3"
+        },
+        {
+          "id": 48442,
+          "title": "8bitDetective",
+          "artist": "Bass Assassin",
+          "url": "music/48442.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 811,
+      "name": "Hip-Hop Beats",
+      "line_id": 21,
+      "playlist": [
+        {
+          "id": 56496,
+          "title": "Cannabis Club Skit",
+          "artist": "Opio",
+          "url": "music/56496.mp3"
+        },
+        {
+          "id": 64988,
+          "title": "Rehab",
+          "artist": "Action Davis",
+          "url": "music/64988.mp3"
+        },
+        {
+          "id": 43865,
+          "title": "up north",
+          "artist": "This One",
+          "url": "music/43865.mp3"
+        },
+        {
+          "id": 43863,
+          "title": "western chow yun-fat",
+          "artist": "This One",
+          "url": "music/43863.mp3"
+        },
+        {
+          "id": 55102,
+          "title": "Swing Deo",
+          "artist": "Alaclair Ensemble",
+          "url": "music/55102.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 1,
+      "name": "Avant-Garde",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 8357,
+          "title": "Promocja Belkot radio commercial",
+          "artist": "Free Matter for the Blind",
+          "url": "music/8357.mp3"
+        },
+        {
+          "id": 9846,
+          "title": "Computer Music/Post-Fordism",
+          "artist": "Mattin",
+          "url": "music/9846.mp3"
+        },
+        {
+          "id": 13578,
+          "title": "Milk",
+          "artist": "Big City Orchestra",
+          "url": "music/13578.mp3"
+        },
+        {
+          "id": 7554,
+          "title": "Seventh Movement",
+          "artist": "Z'EV",
+          "url": "music/7554.mp3"
+        },
+        {
+          "id": 39378,
+          "title": "Most Polite are Imaginary My Friends (R Knot-sh!)",
+          "artist": "U Can Unlearn Guitar",
+          "url": "music/39378.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 6,
+      "name": "Novelty",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 42119,
+          "title": "Heavy Metal Attack Part 2",
+          "artist": "The HATE Noise and Anonymous",
+          "url": "music/42119.mp3"
+        },
+        {
+          "id": 37784,
+          "title": "My Little Pony",
+          "artist": "La Rainbow Toy Orchestra",
+          "url": "music/37784.mp3"
+        },
+        {
+          "id": 29744,
+          "title": "All You Need Is Toys",
+          "artist": "Rufus Hofbagger",
+          "url": "music/29744.mp3"
+        },
+        {
+          "id": 29752,
+          "title": "Row Row Row Your Boat (Mister Jan)",
+          "artist": "Mister Jan",
+          "url": "music/29752.mp3"
+        },
+        {
+          "id": 29740,
+          "title": "The Jagables",
+          "artist": "Kazoo Funk Orchestra",
+          "url": "music/29740.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 22,
+      "name": "Audio Collage",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 15464,
+          "title": "Black Car Blues",
+          "artist": "Bruce Russell",
+          "url": "music/15464.mp3"
+        },
+        {
+          "id": 96898,
+          "title": "Minfuck",
+          "artist": "Sudden Infant",
+          "url": "music/96898.mp3"
+        },
+        {
+          "id": 60317,
+          "title": "Horror Storm",
+          "artist": "Chuck Bettis",
+          "url": "music/60317.mp3"
+        },
+        {
+          "id": 7376,
+          "title": "about peter",
+          "artist": "Lucky Dragons",
+          "url": "music/7376.mp3"
+        },
+        {
+          "id": 7393,
+          "title": "leaving things as they are",
+          "artist": "Lucky Dragons",
+          "url": "music/7393.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 30,
+      "name": "Field Recordings",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 38879,
+          "title": "the beginning, actually",
+          "artist": "File Under Toner",
+          "url": "music/38879.mp3"
+        },
+        {
+          "id": 9476,
+          "title": "Plight Of The Bumblebee",
+          "artist": "A Kombi",
+          "url": "music/9476.mp3"
+        },
+        {
+          "id": 38904,
+          "title": "typewriting",
+          "artist": "File Under Toner",
+          "url": "music/38904.mp3"
+        },
+        {
+          "id": 38912,
+          "title": "ego",
+          "artist": "File Under Toner",
+          "url": "music/38912.mp3"
+        },
+        {
+          "id": 38896,
+          "title": "sardana",
+          "artist": "File Under Toner",
+          "url": "music/38896.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 32,
+      "name": "Noise",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 38450,
+          "title": "Let the little children come to me",
+          "artist": "Children for Breakfast",
+          "url": "music/38450.mp3"
+        },
+        {
+          "id": 9505,
+          "title": "168 Toronto 260305",
+          "artist": "Justice Yeldham",
+          "url": "music/9505.mp3"
+        },
+        {
+          "id": 37041,
+          "title": "Improvisation",
+          "artist": "MV Carbon & Philip White",
+          "url": "music/37041.mp3"
+        },
+        {
+          "id": 995,
+          "title": "No Good Deed Goes Unpunished",
+          "artist": "Kevin Shields",
+          "url": "music/995.mp3"
+        },
+        {
+          "id": 39904,
+          "title": "As The Times Ends Comes The Fire",
+          "artist": "Uton",
+          "url": "music/39904.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 41,
+      "name": "Electroacoustic",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 46058,
+          "title": "Scene From A Forest Height",
+          "artist": "The Noisettes",
+          "url": "music/46058.mp3"
+        },
+        {
+          "id": 57627,
+          "title": "Entering",
+          "artist": "Noveller",
+          "url": "music/57627.mp3"
+        },
+        {
+          "id": 45934,
+          "title": "Melancholic Depression",
+          "artist": "Rune Martinsen",
+          "url": "music/45934.mp3"
+        },
+        {
+          "id": 615,
+          "title": "Immaterial, side A",
+          "artist": "EKG",
+          "url": "music/615.mp3"
+        },
+        {
+          "id": 66469,
+          "title": "Walking",
+          "artist": "Qkcofse",
+          "url": "music/66469.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 47,
+      "name": "Drone",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 52860,
+          "title": "Autonomous Guitar Music For Marc Schulz",
+          "artist": "Ilya Monosov",
+          "url": "music/52860.mp3"
+        },
+        {
+          "id": 74960,
+          "title": "R\u00f6relse av Ljus",
+          "artist": "Bisamr\u00e5tta",
+          "url": "music/74960.mp3"
+        },
+        {
+          "id": 72930,
+          "title": "Chrysanthemums",
+          "artist": "J. Surak",
+          "url": "music/72930.mp3"
+        },
+        {
+          "id": 52861,
+          "title": "For Jojo Takayanagi",
+          "artist": "Ilya Monosov",
+          "url": "music/52861.mp3"
+        },
+        {
+          "id": 44110,
+          "title": "Indian Landmark",
+          "artist": "Messages",
+          "url": "music/44110.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 125,
+      "name": "Unclassifiable",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 38905,
+          "title": "si los curas",
+          "artist": "File Under Toner",
+          "url": "music/38905.mp3"
+        },
+        {
+          "id": 38904,
+          "title": "typewriting",
+          "artist": "File Under Toner",
+          "url": "music/38904.mp3"
+        },
+        {
+          "id": 51301,
+          "title": "Skeletons Fighting Over A Pickled Herring",
+          "artist": "John Badger & The Moustache Riders of Doom",
+          "url": "music/51301.mp3"
+        },
+        {
+          "id": 38908,
+          "title": "look ma no hands",
+          "artist": "File Under Toner",
+          "url": "music/38908.mp3"
+        },
+        {
+          "id": 48042,
+          "title": "Morning Sun",
+          "artist": "Delphine Dora",
+          "url": "music/48042.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 186,
+      "name": "Sound Poetry",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 83911,
+          "title": "Country Boy",
+          "artist": "Rodd Keith and the Raindrops",
+          "url": "music/83911.mp3"
+        },
+        {
+          "id": 115850,
+          "title": "11am",
+          "artist": "Dead Peoples Records",
+          "url": "music/115850.mp3"
+        },
+        {
+          "id": 34996,
+          "title": "Ritual",
+          "artist": "Ambient Fabric",
+          "url": "music/34996.mp3"
+        },
+        {
+          "id": 24524,
+          "title": "T.O.U.C.H.I.N.G",
+          "artist": "C. Spencer Yeh",
+          "url": "music/24524.mp3"
+        },
+        {
+          "id": 112197,
+          "title": "Fairies at the Bottom of Our Garden",
+          "artist": "Dead Peoples Records",
+          "url": "music/112197.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 224,
+      "name": "Sound Collage",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 66469,
+          "title": "Walking",
+          "artist": "Qkcofse",
+          "url": "music/66469.mp3"
+        },
+        {
+          "id": 24983,
+          "title": "Singing in the Raindrops Keep",
+          "artist": "Ergo Phizmiz",
+          "url": "music/24983.mp3"
+        },
+        {
+          "id": 58068,
+          "title": "Auroral Propagation Beacon",
+          "artist": "Przewalski's Horses",
+          "url": "music/58068.mp3"
+        },
+        {
+          "id": 82886,
+          "title": "Mid-American Chant/ Winter of Song",
+          "artist": "Fields Ohio",
+          "url": "music/82886.mp3"
+        },
+        {
+          "id": 84055,
+          "title": "Record Play",
+          "artist": "Max Ebert",
+          "url": "music/84055.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 247,
+      "name": "Musique Concrete",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 38847,
+          "title": "Ambiguity",
+          "artist": "Ambient Fabric",
+          "url": "music/38847.mp3"
+        },
+        {
+          "id": 139637,
+          "title": "areopagitica",
+          "artist": "aboombong",
+          "url": "music/139637.mp3"
+        },
+        {
+          "id": 40908,
+          "title": "Safe And Sound",
+          "artist": "Mopno",
+          "url": "music/40908.mp3"
+        },
+        {
+          "id": 64857,
+          "title": "Rainbow Bomb",
+          "artist": "Monroeville Music Center",
+          "url": "music/64857.mp3"
+        },
+        {
+          "id": 30690,
+          "title": "Magma",
+          "artist": "Ambient Fabric",
+          "url": "music/30690.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 250,
+      "name": "Improv",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 48861,
+          "title": "Skull Flower",
+          "artist": "NaDa BaBa",
+          "url": "music/48861.mp3"
+        },
+        {
+          "id": 28571,
+          "title": "Epic",
+          "artist": "Radioactive Sparrow",
+          "url": "music/28571.mp3"
+        },
+        {
+          "id": 110274,
+          "title": "black hole mystery",
+          "artist": "tramuc and darius",
+          "url": "music/110274.mp3"
+        },
+        {
+          "id": 97407,
+          "title": "The Power of Dreams",
+          "artist": "Vilezlo",
+          "url": "music/97407.mp3"
+        },
+        {
+          "id": 89376,
+          "title": "Logic PIano",
+          "artist": "Stanislav Bobrytskyy",
+          "url": "music/89376.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 456,
+      "name": "Minimalism",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 72928,
+          "title": "The Seventeenth Lesson",
+          "artist": "J. Surak",
+          "url": "music/72928.mp3"
+        },
+        {
+          "id": 86077,
+          "title": "Penetration (Edit)",
+          "artist": "Barmus Dramfell",
+          "url": "music/86077.mp3"
+        },
+        {
+          "id": 38312,
+          "title": "A72",
+          "artist": "James Yates",
+          "url": "music/38312.mp3"
+        },
+        {
+          "id": 57271,
+          "title": "The existence of the light",
+          "artist": "Sol Rezza",
+          "url": "music/57271.mp3"
+        },
+        {
+          "id": 110205,
+          "title": "La tapa del jueves",
+          "artist": "Circus Marcus",
+          "url": "music/110205.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 514,
+      "name": "Sound Art",
+      "line_id": 38,
+      "playlist": [
+        {
+          "id": 57273,
+          "title": "The existence of the light",
+          "artist": "Sol Rezza",
+          "url": "music/57273.mp3"
+        },
+        {
+          "id": 81895,
+          "title": "Somewhere in Scotland",
+          "artist": "The Travelling Mongoose",
+          "url": "music/81895.mp3"
+        },
+        {
+          "id": 86720,
+          "title": "Greek Court Metalheads",
+          "artist": "McCloud Zicmuse",
+          "url": "music/86720.mp3"
+        },
+        {
+          "id": 101864,
+          "title": "Steppen wolf",
+          "artist": "Reier",
+          "url": "music/101864.mp3"
+        },
+        {
+          "id": 42146,
+          "title": "Blues For Brownie",
+          "artist": "Colin Shaddick & Roger Nicholls",
+          "url": "music/42146.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 18,
+      "name": "Soundtrack",
+      "line_id": 1235,
+      "playlist": [
+        {
+          "id": 14578,
+          "title": "Vespers",
+          "artist": "Ergo Phizmiz",
+          "url": "music/14578.mp3"
+        },
+        {
+          "id": 14580,
+          "title": "Music For Darkness",
+          "artist": "Ergo Phizmiz",
+          "url": "music/14580.mp3"
+        },
+        {
+          "id": 40657,
+          "title": "Opium",
+          "artist": "Albert Glasser",
+          "url": "music/40657.mp3"
+        },
+        {
+          "id": 14581,
+          "title": "Dance With a Ball of Emperor Rudolf II",
+          "artist": "Ergo Phizmiz",
+          "url": "music/14581.mp3"
+        },
+        {
+          "id": 40656,
+          "title": "Into The Sewers",
+          "artist": "Albert Glasser",
+          "url": "music/40656.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 107,
+      "name": "Ambient",
+      "line_id": 1235,
+      "playlist": [
+        {
+          "id": 82157,
+          "title": "Recruitment Gong (Instrumental)",
+          "artist": "BOPD",
+          "url": "music/82157.mp3"
+        },
+        {
+          "id": 51776,
+          "title": "March",
+          "artist": "kesson shoujo",
+          "url": "music/51776.mp3"
+        },
+        {
+          "id": 30196,
+          "title": "Phase Of Prisms",
+          "artist": "Lee Rosevere",
+          "url": "music/30196.mp3"
+        },
+        {
+          "id": 45388,
+          "title": "I'm Not Ready Right Now",
+          "artist": "Blear Moon",
+          "url": "music/45388.mp3"
+        },
+        {
+          "id": 90618,
+          "title": "Bird",
+          "artist": "Rod Hamilton",
+          "url": "music/90618.mp3"
+        }
+      ]
+    },
+    {
+      "station_id": 267,
+      "name": "New Age",
+      "line_id": 1235,
+      "playlist": [
+        {
+          "id": 127209,
+          "title": "The Abyss",
+          "artist": "Satori Ensemble",
+          "url": "music/127209.mp3"
+        },
+        {
+          "id": 111149,
+          "title": "Aqua 2",
+          "artist": "Rod Hamilton",
+          "url": "music/111149.mp3"
+        },
+        {
+          "id": 86487,
+          "title": "Sunshine After Rain",
+          "artist": "Andrea Carri",
+          "url": "music/86487.mp3"
+        },
+        {
+          "id": 127207,
+          "title": "Marichi",
+          "artist": "Satori Ensemble",
+          "url": "music/127207.mp3"
+        },
+        {
+          "id": 126587,
+          "title": "After Midnight",
+          "artist": "Maxim Kornyshev",
+          "url": "music/126587.mp3"
+        }
+      ]
+    }
+  ],
+  "transfers": [
+    {
+      "source": 11,
+      "target": 184,
+      "weight": 5
+    },
+    {
+      "source": 49,
+      "target": 580,
+      "weight": 5
+    },
+    {
+      "source": 693,
+      "target": 66,
+      "weight": 5
+    },
+    {
+      "source": 22,
+      "target": 92,
+      "weight": 5
+    },
+    {
+      "source": 172,
+      "target": 97,
+      "weight": 5
+    },
+    {
+      "source": 810,
+      "target": 443,
+      "weight": 5
+    },
+    {
+      "source": 172,
+      "target": 49,
+      "weight": 5
+    },
+    {
+      "source": 456,
+      "target": 171,
+      "weight": 5
+    },
+    {
+      "source": 187,
+      "target": 567,
+      "weight": 5
+    },
+    {
+      "source": 177,
+      "target": 37,
+      "weight": 5
+    },
+    {
+      "source": 32,
+      "target": 36,
+      "weight": 5
+    },
+    {
+      "source": 11,
+      "target": 188,
+      "weight": 5
+    },
+    {
+      "source": 19,
+      "target": 542,
+      "weight": 5
+    },
+    {
+      "source": 659,
+      "target": 83,
+      "weight": 5
+    },
+    {
+      "source": 49,
+      "target": 100,
+      "weight": 5
+    },
+    {
+      "source": 542,
+      "target": 76,
+      "weight": 5
+    },
+    {
+      "source": 97,
+      "target": 42,
+      "weight": 5
+    },
+    {
+      "source": 102,
+      "target": 22,
+      "weight": 5
+    },
+    {
+      "source": 374,
+      "target": 267,
+      "weight": 5
+    },
+    {
+      "source": 74,
+      "target": 441,
+      "weight": 5
+    },
+    {
+      "source": 179,
+      "target": 79,
+      "weight": 5
+    },
+    {
+      "source": 444,
+      "target": 250,
+      "weight": 5
+    },
+    {
+      "source": 58,
+      "target": 86,
+      "weight": 5
+    },
+    {
+      "source": 102,
+      "target": 88,
+      "weight": 5
+    },
+    {
+      "source": 65,
+      "target": 286,
+      "weight": 5
+    },
+    {
+      "source": 66,
+      "target": 465,
+      "weight": 5
+    },
+    {
+      "source": 187,
+      "target": 33,
+      "weight": 5
+    },
+    {
+      "source": 374,
+      "target": 88,
+      "weight": 5
+    },
+    {
+      "source": 66,
+      "target": 542,
+      "weight": 5
+    },
+    {
+      "source": 11,
+      "target": 188,
+      "weight": 5
+    },
+    {
+      "source": 693,
+      "target": 468,
+      "weight": 5
+    },
+    {
+      "source": 169,
+      "target": 693,
+      "weight": 5
+    },
+    {
+      "source": 22,
+      "target": 92,
+      "weight": 5
+    },
+    {
+      "source": 118,
+      "target": 31,
+      "weight": 5
+    },
+    {
+      "source": 456,
+      "target": 49,
+      "weight": 5
+    },
+    {
+      "source": 31,
+      "target": 125,
+      "weight": 5
+    },
+    {
+      "source": 514,
+      "target": 182,
+      "weight": 5
+    },
+    {
+      "source": 33,
+      "target": 74,
+      "weight": 5
+    },
+    {
+      "source": 444,
+      "target": 130,
+      "weight": 5
+    },
+    {
+      "source": 468,
+      "target": 94,
+      "weight": 5
+    },
+    {
+      "source": 97,
+      "target": 247,
+      "weight": 5
+    },
+    {
+      "source": 171,
+      "target": 441,
+      "weight": 5
+    },
+    {
+      "source": 695,
+      "target": 232,
+      "weight": 5
+    },
+    {
+      "source": 188,
+      "target": 79,
+      "weight": 5
+    },
+    {
+      "source": 107,
+      "target": 41,
+      "weight": 5
+    }
+  ]
+}

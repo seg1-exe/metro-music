@@ -1,135 +1,302 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TRACKS - Voyage Musical</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
-  
+
   <style>
     /* --- STYLES GLOBAUX --- */
-    body, html {
-      margin: 0; padding: 0; height: 100%;
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      background-color: #0274B3; 
-      color: white; overflow: hidden;
+      background-color: #0274B3;
+      color: white;
+      overflow: hidden;
     }
 
     #app-container {
-      display: flex; height: 100vh; width: 100vw;
-      padding: 25px; box-sizing: border-box; gap: 30px;
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      padding: 25px;
+      box-sizing: border-box;
+      gap: 30px;
     }
 
     /* --- SIDEBAR (MODIFIÉE POUR LE LECTEUR) --- */
     #sidebar {
-      width: 320px; flex-shrink: 0; 
-      display: flex; flex-direction: column; /* Colonne pour empiler */
-      height: 100%; /* Prend toute la hauteur du conteneur */
+      width: 320px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      /* Colonne pour empiler */
+      height: 100%;
+      /* Prend toute la hauteur du conteneur */
     }
 
-    h1#app-title { 
-      font-size: 48px; font-weight: bold; margin: 0 0 20px 0; letter-spacing: 1px; flex-shrink: 0; 
+    h1#app-title {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0 0 20px 0;
+      letter-spacing: 1px;
+      flex-shrink: 0;
     }
 
     /* Zone de navigation SCROLLABLE */
     #navigation-content {
-      flex-grow: 1; /* Prend tout l'espace disponible */
-      overflow-y: auto; /* Scroll uniquement ici */
-      padding-right: 10px; /* Espace pour la scrollbar */
+      flex-grow: 1;
+      /* Prend tout l'espace disponible */
+      overflow-y: auto;
+      /* Scroll uniquement ici */
+      padding-right: 10px;
+      /* Espace pour la scrollbar */
       margin-bottom: 20px;
-      
+
       /* Scrollbar stylisée */
-      scrollbar-width: thin; scrollbar-color: rgba(255,255,255,0.3) transparent;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
     }
-    #navigation-content::-webkit-scrollbar { width: 6px; }
-    #navigation-content::-webkit-scrollbar-thumb { background-color: rgba(255,255,255,0.3); border-radius: 3px; }
+
+    #navigation-content::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    #navigation-content::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 3px;
+    }
 
     /* --- NOUVEAU : MINI LECTEUR EN BAS --- */
     #mini-player {
-      flex-shrink: 0; /* Ne rétrécit pas */
-      background: rgba(0, 0, 0, 0.2); /* Fond légèrement plus sombre */
+      flex-shrink: 0;
+      /* Ne rétrécit pas */
+      background: rgba(0, 0, 0, 0.2);
+      /* Fond légèrement plus sombre */
       border-radius: 12px;
       padding: 15px;
-      display: flex;
+      display: none;
       align-items: center;
       gap: 15px;
       backdrop-filter: blur(5px);
       border: 1px solid rgba(255, 255, 255, 0.1);
       transition: transform 0.3s ease;
     }
-    
+
     /* Indicateur visuel (Carré de couleur du genre) */
     #mp-cover {
-      width: 40px; height: 40px; 
-      border-radius: 6px; 
+      width: 40px;
+      height: 40px;
+      border-radius: 6px;
       background-color: #333;
       flex-shrink: 0;
     }
 
     #mp-info {
       flex-grow: 1;
-      display: flex; flex-direction: column; justify-content: center;
-      overflow: hidden; /* Pour couper le texte trop long */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      /* Pour couper le texte trop long */
     }
 
-    #mp-track { font-weight: bold; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    #mp-artist { font-size: 11px; opacity: 0.8; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    #mp-genre { font-size: 9px; opacity: 0.6; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.5px; }
+    #mp-track {
+      font-weight: bold;
+      font-size: 13px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    #mp-artist {
+      font-size: 11px;
+      opacity: 0.8;
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    #mp-genre {
+      font-size: 9px;
+      opacity: 0.6;
+      margin-top: 2px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
 
     #mp-control {
-      font-size: 20px; cursor: pointer; width: 30px; text-align: center;
+      font-size: 20px;
+      cursor: pointer;
+      width: 30px;
+      text-align: center;
     }
-    #mp-control:hover { opacity: 0.8; }
+
+    #mp-control:hover {
+      opacity: 0.8;
+    }
 
     /* --- RESTE DU CSS (Navigation) --- */
-    .nav-list { list-style: none; padding: 0; margin: 0; }
-    
-    .nav-item {
-      padding: 12px 0; cursor: pointer; display: flex; align-items: center;
-      transition: all 0.2s; font-size: 16px; font-weight: bold;
-      animation: slideIn 0.3s ease-out forwards; opacity: 0; transform: translateX(-10px);
+    .nav-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
     }
-    .nav-item:nth-child(1) { animation-delay: 0.05s; }
-    .nav-item:nth-child(2) { animation-delay: 0.1s; }
-    .nav-item:nth-child(3) { animation-delay: 0.15s; }
-    .nav-item:nth-child(n+5) { animation-delay: 0.25s; }
 
-    @keyframes slideIn { to { opacity: 1; transform: translateX(0); } }
-    .nav-item:hover { color: rgba(255, 255, 255, 0.7); transform: translateX(5px); }
+    .nav-item {
+      padding: 12px 0;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      transition: all 0.2s;
+      font-size: 16px;
+      font-weight: bold;
+      animation: slideIn 0.3s ease-out forwards;
+      opacity: 0;
+      transform: translateX(-10px);
+    }
 
-    .nav-header { display: flex; align-items: center; margin-bottom: 20px; animation: slideIn 0.3s ease-out forwards; }
-    .genre-dot { width: 14px; height: 14px; border-radius: 50%; margin-right: 15px; flex-shrink: 0; }
-    .subgenre-dot { width: 8px; height: 8px; border-radius: 50%; margin-right: 15px; margin-left: 3px; border: 2px solid white; }
-    .back-button { margin-bottom: 20px; font-weight: bold; font-size: 14px; color: rgba(255, 255, 255, 0.6); }
-    .back-button:hover { color: white; }
+    .nav-item:nth-child(1) {
+      animation-delay: 0.05s;
+    }
+
+    .nav-item:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+
+    .nav-item:nth-child(3) {
+      animation-delay: 0.15s;
+    }
+
+    .nav-item:nth-child(n+5) {
+      animation-delay: 0.25s;
+    }
+
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .nav-item:hover {
+      color: rgba(255, 255, 255, 0.7);
+      transform: translateX(5px);
+    }
+
+    .nav-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      animation: slideIn 0.3s ease-out forwards;
+    }
+
+    .genre-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      margin-right: 15px;
+      flex-shrink: 0;
+    }
+
+    .subgenre-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 15px;
+      margin-left: 3px;
+      border: 2px solid white;
+    }
+
+    .back-button {
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .back-button:hover {
+      color: white;
+    }
 
     .track-item {
-      padding: 12px 15px; margin-bottom: 8px; background: rgba(255,255,255,0.1); border-radius: 8px;
-      cursor: pointer; display: flex; justify-content: space-between; align-items: center;
-      transition: background 0.2s; animation: slideIn 0.4s ease-out forwards; opacity: 0; transform: translateY(10px);
+      padding: 12px 15px;
+      margin-bottom: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background 0.2s;
+      animation: slideIn 0.4s ease-out forwards;
+      opacity: 0;
+      transform: translateY(10px);
     }
-    .track-item:hover { background: rgba(255,255,255,0.25); }
-    .track-item.playing { background: rgba(255,255,255,0.9); color: #0274B3; }
-    .track-info { display: flex; flex-direction: column; }
-    .track-title { font-weight: bold; font-size: 14px; }
-    .track-artist { font-size: 12px; opacity: 0.8; font-weight: normal; margin-top: 4px;}
-    .play-icon { font-size: 18px; width: 24px; text-align: center; font-weight: bold; }
+
+    .track-item:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    .track-item.playing {
+      background: rgba(255, 255, 255, 0.9);
+      color: #0274B3;
+    }
+
+    .track-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .track-title {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .track-artist {
+      font-size: 12px;
+      opacity: 0.8;
+      font-weight: normal;
+      margin-top: 4px;
+    }
+
+    .play-icon {
+      font-size: 18px;
+      width: 24px;
+      text-align: center;
+      font-weight: bold;
+    }
 
     /* --- CANVAS --- */
     #canvas-wrapper {
-      flex-grow: 1; background-color: #FDFBF7;
-      border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-      overflow: hidden; position: relative;
-      display: flex; justify-content: center; align-items: center;
+      flex-grow: 1;
+      background-color: #FDFBF7;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-    #defaultCanvas0 { display: block; }
+
+    #defaultCanvas0 {
+      display: block;
+    }
   </style>
 </head>
+
 <body>
   <div id="app-container">
     <div id="sidebar">
       <h1 id="app-title">TRACKS</h1>
-      
+
       <div id="navigation-content"></div>
 
       <div id="mini-player">
@@ -147,4 +314,5 @@
   </div>
   <script src="sketch.js"></script>
 </body>
+
 </html>

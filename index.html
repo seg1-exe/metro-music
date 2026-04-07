@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TRACKS - Voyage Musical</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"></script>
+  <link rel="icon" href="icon.png" type="image/png">
+  <title>TRACKS</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.10/p5.min.js" integrity="sha512-7DACDM+XO+/7cocfzNIXh/3rSXc7MzTtr2elSVJLYcXXHPL1/lAyFSKU1F1JBPPCvBGOLNYJCqLlzFeJzc6dLg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <style>
-    /* --- STYLES GLOBAUX --- */
     body,
     html {
       margin: 0;
@@ -29,15 +29,12 @@
       gap: 30px;
     }
 
-    /* --- SIDEBAR (MODIFIÉE POUR LE LECTEUR) --- */
     #sidebar {
       width: 320px;
       flex-shrink: 0;
       display: flex;
       flex-direction: column;
-      /* Colonne pour empiler */
       height: 100%;
-      /* Prend toute la hauteur du conteneur */
     }
 
     h1#app-title {
@@ -48,17 +45,11 @@
       flex-shrink: 0;
     }
 
-    /* Zone de navigation SCROLLABLE */
     #navigation-content {
       flex-grow: 1;
-      /* Prend tout l'espace disponible */
       overflow-y: auto;
-      /* Scroll uniquement ici */
       padding-right: 10px;
-      /* Espace pour la scrollbar */
       margin-bottom: 20px;
-
-      /* Scrollbar stylisée */
       scrollbar-width: thin;
       scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
     }
@@ -72,12 +63,9 @@
       border-radius: 3px;
     }
 
-    /* --- NOUVEAU : MINI LECTEUR EN BAS --- */
     #mini-player {
       flex-shrink: 0;
-      /* Ne rétrécit pas */
       background: rgba(0, 0, 0, 0.2);
-      /* Fond légèrement plus sombre */
       border-radius: 12px;
       padding: 15px;
       display: none;
@@ -88,7 +76,6 @@
       transition: transform 0.3s ease;
     }
 
-    /* Indicateur visuel (Carré de couleur du genre) */
     #mp-cover {
       width: 40px;
       height: 40px;
@@ -103,7 +90,6 @@
       flex-direction: column;
       justify-content: center;
       overflow: hidden;
-      /* Pour couper le texte trop long */
     }
 
     #mp-track {
@@ -142,7 +128,6 @@
       opacity: 0.8;
     }
 
-    /* --- RESTE DU CSS (Navigation) --- */
     .nav-list {
       list-style: none;
       padding: 0;
@@ -162,21 +147,10 @@
       transform: translateX(-10px);
     }
 
-    .nav-item:nth-child(1) {
-      animation-delay: 0.05s;
-    }
-
-    .nav-item:nth-child(2) {
-      animation-delay: 0.1s;
-    }
-
-    .nav-item:nth-child(3) {
-      animation-delay: 0.15s;
-    }
-
-    .nav-item:nth-child(n+5) {
-      animation-delay: 0.25s;
-    }
+    .nav-item:nth-child(1) { animation-delay: 0.05s; }
+    .nav-item:nth-child(2) { animation-delay: 0.1s; }
+    .nav-item:nth-child(3) { animation-delay: 0.15s; }
+    .nav-item:nth-child(n+5) { animation-delay: 0.25s; }
 
     @keyframes slideIn {
       to {
@@ -273,11 +247,107 @@
       font-weight: bold;
     }
 
-    /* --- CANVAS --- */
+    #burger-btn {
+      display: none;
+    }
+
+    #drawer-backdrop {
+      display: none;
+    }
+
+    @media (max-width: 700px) {
+      #app-container {
+        padding: 0;
+        gap: 0;
+      }
+
+      #canvas-wrapper {
+        position: fixed;
+        inset: 0;
+        border-radius: 0;
+        box-shadow: none;
+        z-index: 0;
+      }
+
+      #sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 300px;
+        max-width: 85vw;
+        height: 100%;
+        z-index: 20;
+        padding: 25px 20px;
+        box-sizing: border-box;
+        background-color: #0274B3;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        overflow: hidden;
+      }
+
+      #sidebar.is-open {
+        transform: translateX(0);
+      }
+
+      #drawer-backdrop {
+        display: block;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.45);
+        z-index: 10;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+      }
+
+      #drawer-backdrop.is-open {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      #burger-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 30;
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+        border: none;
+        background: #0274B3;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      }
+
+      #mini-player-mobile {
+        display: none;
+        position: fixed;
+        bottom: 16px;
+        left: 16px;
+        right: 16px;
+        z-index: 5;
+        background: #0274B3;
+        border-radius: 12px;
+        padding: 12px 15px;
+        align-items: center;
+        gap: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+      }
+
+      #mini-player-mobile.visible {
+        display: flex;
+      }
+    }
+
     #canvas-wrapper {
       flex-grow: 1;
       background-color: #FDFBF7;
-      border-radius: 20px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
       overflow: hidden;
       position: relative;
@@ -293,26 +363,95 @@
 </head>
 
 <body>
+  <button id="burger-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+  <div id="drawer-backdrop"></div>
+
   <div id="app-container">
     <div id="sidebar">
       <h1 id="app-title">TRACKS</h1>
-
       <div id="navigation-content"></div>
-
-      <div id="mini-player">
-        <div id="mp-cover"></div>
+      <div id="mini-player" role="region" aria-label="Audio player">
+        <div id="mp-cover" aria-hidden="true"></div>
         <div id="mp-info">
-          <div id="mp-track">En attente...</div>
-          <div id="mp-artist">Sélectionnez un titre</div>
-          <div id="mp-genre">ou une station</div>
+          <div id="mp-track" aria-live="polite">Waiting...</div>
+          <div id="mp-artist">Select a track</div>
+          <div id="mp-genre">or a station</div>
         </div>
-        <div id="mp-control">▶</div>
+        <div id="mp-control" role="button" aria-label="Play / Pause" tabindex="0">▶</div>
       </div>
-
     </div>
     <div id="canvas-wrapper"></div>
   </div>
+
+  <!-- Floating mini-player visible on mobile when the menu is closed -->
+  <div id="mini-player-mobile" role="region" aria-label="Now playing">
+    <div id="mpm-cover" style="width:36px;height:36px;border-radius:6px;background:#333;flex-shrink:0"></div>
+    <div style="flex-grow:1;overflow:hidden">
+      <div id="mpm-track" style="font-weight:bold;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis"></div>
+      <div id="mpm-artist" style="font-size:11px;opacity:0.8;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis"></div>
+    </div>
+    <div id="mpm-control" role="button" aria-label="Play / Pause" tabindex="0" style="font-size:20px;cursor:pointer;width:30px;text-align:center">▶</div>
+  </div>
+
   <script src="sketch.js"></script>
+
+  <script>
+    (function () {
+      const burger = document.getElementById('burger-btn');
+      const sidebar = document.getElementById('sidebar');
+      const backdrop = document.getElementById('drawer-backdrop');
+
+      function openMenu() {
+        sidebar.classList.add('is-open');
+        backdrop.classList.add('is-open');
+        burger.setAttribute('aria-expanded', 'true');
+        burger.textContent = '✕';
+      }
+
+      function closeMenu() {
+        sidebar.classList.remove('is-open');
+        backdrop.classList.remove('is-open');
+        burger.setAttribute('aria-expanded', 'false');
+        burger.textContent = '☰';
+      }
+
+      burger.addEventListener('click', () => {
+        sidebar.classList.contains('is-open') ? closeMenu() : openMenu();
+      });
+
+      backdrop.addEventListener('click', closeMenu);
+
+      // Sync mobile mini-player with the main mini-player
+      const mpTrack = document.getElementById('mp-track');
+      const mpArtist = document.getElementById('mp-artist');
+      const mpCover = document.getElementById('mp-cover');
+      const mpmTrack = document.getElementById('mpm-track');
+      const mpmArtist = document.getElementById('mpm-artist');
+      const mpmCover = document.getElementById('mpm-cover');
+      const mpmControl = document.getElementById('mpm-control');
+      const mpmPlayer = document.getElementById('mini-player-mobile');
+      const mpControl = document.getElementById('mp-control');
+
+      // Watch for changes in the main mini-player
+      const observer = new MutationObserver(() => {
+        const isVisible = document.getElementById('mini-player').style.display === 'flex';
+        mpmTrack.textContent = mpTrack.textContent;
+        mpmArtist.textContent = mpArtist.textContent;
+        mpmCover.style.background = mpCover.style.background;
+        mpmControl.textContent = mpControl.textContent;
+        if (window.innerWidth <= 700) {
+          mpmPlayer.classList.toggle('visible', isVisible);
+        }
+      });
+
+      observer.observe(document.getElementById('mini-player'), {
+        subtree: true, childList: true, characterData: true, attributes: true
+      });
+
+      // Mobile mini-player button proxies the main button
+      mpmControl.addEventListener('click', () => mpControl.click());
+    })();
+  </script>
 </body>
 
 </html>

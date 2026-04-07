@@ -6,11 +6,6 @@
       "color": "#E63946"
     },
     {
-      "line_id": 3,
-      "name": "Blues",
-      "color": "#F1FAEE"
-    },
-    {
       "line_id": 4,
       "name": "Jazz",
       "color": "#A8DADC"
@@ -90,25 +85,25 @@
         {
           "id": 64593,
           "title": "Barranquilla Tiene Un  Swing",
-          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "artist": "Frank Guerrero y Su Grupo Aché",
           "url": "music/64593.mp3"
         },
         {
           "id": 64592,
           "title": "Cupido",
-          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "artist": "Frank Guerrero y Su Grupo Aché",
           "url": "music/64592.mp3"
         },
         {
           "id": 64591,
           "title": "Fui Yo",
-          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "artist": "Frank Guerrero y Su Grupo Aché",
           "url": "music/64591.mp3"
         },
         {
           "id": 64590,
           "title": "Vamos A Tocar Sonero",
-          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "artist": "Frank Guerrero y Su Grupo Aché",
           "url": "music/64590.mp3"
         },
         {
@@ -133,25 +128,25 @@
         {
           "id": 127869,
           "title": "Sad French Accordion",
-          "artist": "Dana Boul\u00e9",
+          "artist": "Dana Boulé",
           "url": "music/127869.mp3"
         },
         {
           "id": 127871,
           "title": "Swinging in the 7th",
-          "artist": "Dana Boul\u00e9",
+          "artist": "Dana Boulé",
           "url": "music/127871.mp3"
         },
         {
           "id": 127866,
           "title": "Paris Ballade",
-          "artist": "Dana Boul\u00e9",
+          "artist": "Dana Boulé",
           "url": "music/127866.mp3"
         },
         {
           "id": 127870,
           "title": "Tomorrow Comes (accordion)",
-          "artist": "Dana Boul\u00e9",
+          "artist": "Dana Boulé",
           "url": "music/127870.mp3"
         }
       ]
@@ -255,7 +250,7 @@
         },
         {
           "id": 62195,
-          "title": "La go d'a c\u00f4t\u00e9",
+          "title": "La go d'a côté",
           "artist": "Arielle T",
           "url": "music/62195.mp3"
         },
@@ -286,7 +281,7 @@
         },
         {
           "id": 43697,
-          "title": "S\u00fcleyman A\u011fa",
+          "title": "Süleyman Ağa",
           "artist": "MWE",
           "url": "music/43697.mp3"
         },
@@ -372,7 +367,7 @@
         },
         {
           "id": 43697,
-          "title": "S\u00fcleyman A\u011fa",
+          "title": "Süleyman Ağa",
           "artist": "MWE",
           "url": "music/43697.mp3"
         }
@@ -392,25 +387,25 @@
         {
           "id": 27612,
           "title": "Que te Quiero Yo",
-          "artist": "El Ni\u00f1o del Parking",
+          "artist": "El Niño del Parking",
           "url": "music/27612.mp3"
         },
         {
           "id": 27613,
           "title": "Los Dolores de Juana",
-          "artist": "El Ni\u00f1o del Parking",
+          "artist": "El Niño del Parking",
           "url": "music/27613.mp3"
         },
         {
           "id": 27609,
           "title": "Baile me por Tangos",
-          "artist": "El Ni\u00f1o del Parking",
+          "artist": "El Niño del Parking",
           "url": "music/27609.mp3"
         },
         {
           "id": 27611,
           "title": "La Juerga en Estado Puro",
-          "artist": "El Ni\u00f1o del Parking",
+          "artist": "El Niño del Parking",
           "url": "music/27611.mp3"
         }
       ]
@@ -429,7 +424,7 @@
         {
           "id": 31165,
           "title": "A palavra / O primeiro passo",
-          "artist": "BNeg\u00e3o & Seletores de Freq\u00fc\u00eancia",
+          "artist": "BNegão & Seletores de Freqüência",
           "url": "music/31165.mp3"
         },
         {
@@ -453,7 +448,7 @@
       "playlist": [
         {
           "id": 15880,
-          "title": "Taishikich\u00f4 Ch\u00f4shi",
+          "title": "Taishikichô Chôshi",
           "artist": "Kokusai Bunka Shinkokai",
           "url": "music/15880.mp3"
         },
@@ -528,25 +523,25 @@
         {
           "id": 38822,
           "title": "The Manx Lullaby",
-          "artist": "Sl\u00e1inte",
+          "artist": "Sláinte",
           "url": "music/38822.mp3"
         },
         {
           "id": 38784,
           "title": "Julia Delaney",
-          "artist": "Sl\u00e1inte",
+          "artist": "Sláinte",
           "url": "music/38784.mp3"
         },
         {
           "id": 38781,
           "title": "Denis Murphy's, John Ryan's",
-          "artist": "Sl\u00e1inte",
+          "artist": "Sláinte",
           "url": "music/38781.mp3"
         },
         {
           "id": 38823,
           "title": "Scully's Reel. Mrs McLeod's. Cooley's Reel",
-          "artist": "Sl\u00e1inte",
+          "artist": "Sláinte",
           "url": "music/38823.mp3"
         },
         {
@@ -565,13 +560,13 @@
         {
           "id": 27609,
           "title": "Baile me por Tangos",
-          "artist": "El Ni\u00f1o del Parking",
+          "artist": "El Niño del Parking",
           "url": "music/27609.mp3"
         },
         {
           "id": 27610,
-          "title": "Big Foot (Cu\u00e1ntos A\u00f1os)",
-          "artist": "El Ni\u00f1o del Parking",
+          "title": "Big Foot (Cuántos Años)",
+          "artist": "El Niño del Parking",
           "url": "music/27610.mp3"
         },
         {
@@ -608,7 +603,7 @@
         {
           "id": 27612,
           "title": "Que te Quiero Yo",
-          "artist": "El Ni\u00f1o del Parking",
+          "artist": "El Niño del Parking",
           "url": "music/27612.mp3"
         },
         {
@@ -628,43 +623,6 @@
           "title": "Hereus de mala vida",
           "artist": "Terratombats",
           "url": "music/142534.mp3"
-        }
-      ]
-    },
-    {
-      "station_id": 567,
-      "name": "Gospel",
-      "line_id": 3,
-      "playlist": [
-        {
-          "id": 18197,
-          "title": "Happening for Lulu",
-          "artist": "Kraus",
-          "url": "music/18197.mp3"
-        },
-        {
-          "id": 73495,
-          "title": "Mariachi Bandits of Gatling Gun Ridge",
-          "artist": "krackatoa",
-          "url": "music/73495.mp3"
-        },
-        {
-          "id": 74706,
-          "title": "Fall asleep under the millions of stars (Instrumental)",
-          "artist": "springtide",
-          "url": "music/74706.mp3"
-        },
-        {
-          "id": 80833,
-          "title": "kind gentle beautiful person",
-          "artist": "Origami Repetika",
-          "url": "music/80833.mp3"
-        },
-        {
-          "id": 61492,
-          "title": "No.02",
-          "artist": "Room For A Ghost",
-          "url": "music/61492.mp3"
         }
       ]
     },
@@ -699,7 +657,7 @@
         },
         {
           "id": 113259,
-          "title": "Povo Que Ca\u00eds Descal\u00e7o",
+          "title": "Povo Que Caís Descalço",
           "artist": "Dead Combo",
           "url": "music/113259.mp3"
         }
@@ -725,7 +683,7 @@
         {
           "id": 64593,
           "title": "Barranquilla Tiene Un  Swing",
-          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "artist": "Frank Guerrero y Su Grupo Aché",
           "url": "music/64593.mp3"
         },
         {
@@ -786,7 +744,7 @@
       "playlist": [
         {
           "id": 113259,
-          "title": "Povo Que Ca\u00eds Descal\u00e7o",
+          "title": "Povo Que Caís Descalço",
           "artist": "Dead Combo",
           "url": "music/113259.mp3"
         },
@@ -873,7 +831,7 @@
         {
           "id": 64593,
           "title": "Barranquilla Tiene Un  Swing",
-          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "artist": "Frank Guerrero y Su Grupo Aché",
           "url": "music/64593.mp3"
         },
         {
@@ -1051,7 +1009,7 @@
         },
         {
           "id": 113259,
-          "title": "Povo Que Ca\u00eds Descal\u00e7o",
+          "title": "Povo Que Caís Descalço",
           "artist": "Dead Combo",
           "url": "music/113259.mp3"
         },
@@ -2414,7 +2372,7 @@
         },
         {
           "id": 72210,
-          "title": "\u0627\u0644\u0642\u0630\u0627\u0641\u064a \u0627\u0644\u0627\u0654\u0645\u0627\u0632\u0648\u0646 \u0627\u0644\u062d\u0631\u0633",
+          "title": "القذافي الأمازون الحرس",
           "artist": "Music For Your Plants",
           "url": "music/72210.mp3"
         },
@@ -2699,7 +2657,7 @@
         {
           "id": 47663,
           "title": "me aborrezco cada vez que llego tarde",
-          "artist": "Onda bid\u00f3n",
+          "artist": "Onda bidón",
           "url": "music/47663.mp3"
         },
         {
@@ -2723,7 +2681,7 @@
         {
           "id": 47662,
           "title": "alexandra",
-          "artist": "Onda bid\u00f3n",
+          "artist": "Onda bidón",
           "url": "music/47662.mp3"
         }
       ]
@@ -3129,7 +3087,7 @@
         },
         {
           "id": 78845,
-          "title": "Nuvem M\u00e1gica",
+          "title": "Nuvem Mágica",
           "artist": "Stray",
           "url": "music/78845.mp3"
         }
@@ -3160,7 +3118,7 @@
         },
         {
           "id": 71250,
-          "title": "N\u00e3o D\u00e1 (feat. Prodigio)",
+          "title": "Não Dá (feat. Prodigio)",
           "artist": "Dengaz",
           "url": "music/71250.mp3"
         },
@@ -3309,7 +3267,7 @@
         {
           "id": 64593,
           "title": "Barranquilla Tiene Un  Swing",
-          "artist": "Frank Guerrero y Su Grupo Ach\u00e9",
+          "artist": "Frank Guerrero y Su Grupo Aché",
           "url": "music/64593.mp3"
         },
         {
@@ -3592,8 +3550,8 @@
         },
         {
           "id": 74960,
-          "title": "R\u00f6relse av Ljus",
-          "artist": "Bisamr\u00e5tta",
+          "title": "Rörelse av Ljus",
+          "artist": "Bisamråtta",
           "url": "music/74960.mp3"
         },
         {
@@ -3989,229 +3947,2619 @@
   ],
   "transfers": [
     {
-      "source": 11,
-      "target": 184,
-      "weight": 5
+      "source": 27,
+      "target": 76,
+      "strength": 1338
     },
     {
-      "source": 49,
-      "target": 580,
-      "weight": 5
+      "source": 42,
+      "target": 107,
+      "strength": 1024
     },
     {
-      "source": 693,
-      "target": 66,
-      "weight": 5
+      "source": 47,
+      "target": 107,
+      "strength": 1016
     },
     {
-      "source": 22,
-      "target": 92,
-      "weight": 5
+      "source": 74,
+      "target": 250,
+      "strength": 843
     },
     {
-      "source": 172,
-      "target": 97,
-      "weight": 5
+      "source": 1,
+      "target": 107,
+      "strength": 757
     },
     {
-      "source": 810,
-      "target": 443,
-      "weight": 5
+      "source": 18,
+      "target": 42,
+      "strength": 712
     },
     {
-      "source": 172,
-      "target": 49,
-      "weight": 5
+      "source": 18,
+      "target": 514,
+      "strength": 706
+    },
+    {
+      "source": 1,
+      "target": 18,
+      "strength": 696
+    },
+    {
+      "source": 107,
+      "target": 514,
+      "strength": 658
+    },
+    {
+      "source": 18,
+      "target": 250,
+      "strength": 649
+    },
+    {
+      "source": 107,
+      "target": 250,
+      "strength": 648
+    },
+    {
+      "source": 32,
+      "target": 107,
+      "strength": 642
+    },
+    {
+      "source": 27,
+      "target": 103,
+      "strength": 611
+    },
+    {
+      "source": 18,
+      "target": 659,
+      "strength": 608
+    },
+    {
+      "source": 1,
+      "target": 76,
+      "strength": 595
+    },
+    {
+      "source": 1,
+      "target": 27,
+      "strength": 567
+    },
+    {
+      "source": 1,
+      "target": 659,
+      "strength": 561
+    },
+    {
+      "source": 66,
+      "target": 76,
+      "strength": 545
+    },
+    {
+      "source": 250,
+      "target": 659,
+      "strength": 524
+    },
+    {
+      "source": 514,
+      "target": 659,
+      "strength": 510
+    },
+    {
+      "source": 107,
+      "target": 659,
+      "strength": 499
+    },
+    {
+      "source": 1,
+      "target": 74,
+      "strength": 468
+    },
+    {
+      "source": 18,
+      "target": 456,
+      "strength": 456
+    },
+    {
+      "source": 27,
+      "target": 33,
+      "strength": 451
+    },
+    {
+      "source": 76,
+      "target": 103,
+      "strength": 430
+    },
+    {
+      "source": 33,
+      "target": 58,
+      "strength": 429
+    },
+    {
+      "source": 32,
+      "target": 70,
+      "strength": 410
+    },
+    {
+      "source": 107,
+      "target": 236,
+      "strength": 399
+    },
+    {
+      "source": 70,
+      "target": 183,
+      "strength": 391
+    },
+    {
+      "source": 27,
+      "target": 94,
+      "strength": 384
+    },
+    {
+      "source": 42,
+      "target": 47,
+      "strength": 377
+    },
+    {
+      "source": 33,
+      "target": 76,
+      "strength": 366
+    },
+    {
+      "source": 66,
+      "target": 103,
+      "strength": 360
+    },
+    {
+      "source": 107,
+      "target": 125,
+      "strength": 356
+    },
+    {
+      "source": 76,
+      "target": 224,
+      "strength": 345
+    },
+    {
+      "source": 18,
+      "target": 125,
+      "strength": 343
+    },
+    {
+      "source": 27,
+      "target": 32,
+      "strength": 342
+    },
+    {
+      "source": 33,
+      "target": 250,
+      "strength": 341
+    },
+    {
+      "source": 70,
+      "target": 181,
+      "strength": 336
+    },
+    {
+      "source": 94,
+      "target": 250,
+      "strength": 336
+    },
+    {
+      "source": 70,
+      "target": 236,
+      "strength": 329
+    },
+    {
+      "source": 25,
+      "target": 32,
+      "strength": 325
+    },
+    {
+      "source": 70,
+      "target": 107,
+      "strength": 319
+    },
+    {
+      "source": 107,
+      "target": 247,
+      "strength": 317
+    },
+    {
+      "source": 26,
+      "target": 107,
+      "strength": 308
+    },
+    {
+      "source": 42,
+      "target": 456,
+      "strength": 306
+    },
+    {
+      "source": 1,
+      "target": 94,
+      "strength": 302
+    },
+    {
+      "source": 25,
+      "target": 76,
+      "strength": 301
+    },
+    {
+      "source": 41,
+      "target": 107,
+      "strength": 300
+    },
+    {
+      "source": 18,
+      "target": 76,
+      "strength": 291
+    },
+    {
+      "source": 32,
+      "target": 42,
+      "strength": 288
+    },
+    {
+      "source": 1,
+      "target": 25,
+      "strength": 287
+    },
+    {
+      "source": 1,
+      "target": 183,
+      "strength": 279
+    },
+    {
+      "source": 107,
+      "target": 456,
+      "strength": 273
     },
     {
       "source": 456,
+      "target": 659,
+      "strength": 272
+    },
+    {
+      "source": 107,
+      "target": 495,
+      "strength": 269
+    },
+    {
+      "source": 58,
+      "target": 76,
+      "strength": 261
+    },
+    {
+      "source": 94,
+      "target": 514,
+      "strength": 259
+    },
+    {
+      "source": 45,
+      "target": 76,
+      "strength": 256
+    },
+    {
+      "source": 32,
+      "target": 76,
+      "strength": 252
+    },
+    {
+      "source": 18,
+      "target": 94,
+      "strength": 251
+    },
+    {
+      "source": 41,
+      "target": 42,
+      "strength": 248
+    },
+    {
+      "source": 94,
+      "target": 107,
+      "strength": 247
+    },
+    {
+      "source": 18,
+      "target": 495,
+      "strength": 241
+    },
+    {
+      "source": 107,
+      "target": 184,
+      "strength": 238
+    },
+    {
+      "source": 107,
+      "target": 183,
+      "strength": 238
+    },
+    {
+      "source": 125,
+      "target": 659,
+      "strength": 234
+    },
+    {
+      "source": 30,
+      "target": 107,
+      "strength": 232
+    },
+    {
+      "source": 27,
+      "target": 250,
+      "strength": 230
+    },
+    {
+      "source": 76,
+      "target": 236,
+      "strength": 228
+    },
+    {
+      "source": 49,
+      "target": 250,
+      "strength": 219
+    },
+    {
+      "source": 236,
+      "target": 542,
+      "strength": 216
+    },
+    {
+      "source": 32,
+      "target": 183,
+      "strength": 215
+    },
+    {
+      "source": 1,
+      "target": 322,
+      "strength": 214
+    },
+    {
+      "source": 33,
+      "target": 47,
+      "strength": 209
+    },
+    {
+      "source": 41,
+      "target": 76,
+      "strength": 201
+    },
+    {
+      "source": 125,
+      "target": 183,
+      "strength": 198
+    },
+    {
+      "source": 33,
+      "target": 107,
+      "strength": 197
+    },
+    {
+      "source": 94,
+      "target": 125,
+      "strength": 196
+    },
+    {
+      "source": 58,
+      "target": 103,
+      "strength": 196
+    },
+    {
+      "source": 58,
+      "target": 250,
+      "strength": 191
+    },
+    {
+      "source": 103,
+      "target": 137,
+      "strength": 188
+    },
+    {
+      "source": 94,
+      "target": 659,
+      "strength": 188
+    },
+    {
+      "source": 33,
+      "target": 66,
+      "strength": 186
+    },
+    {
+      "source": 1,
+      "target": 49,
+      "strength": 186
+    },
+    {
+      "source": 27,
+      "target": 183,
+      "strength": 183
+    },
+    {
+      "source": 30,
+      "target": 86,
+      "strength": 181
+    },
+    {
+      "source": 66,
+      "target": 362,
+      "strength": 178
+    },
+    {
+      "source": 25,
+      "target": 362,
+      "strength": 174
+    },
+    {
+      "source": 18,
+      "target": 33,
+      "strength": 174
+    },
+    {
+      "source": 1,
+      "target": 33,
+      "strength": 172
+    },
+    {
+      "source": 27,
+      "target": 362,
+      "strength": 171
+    },
+    {
+      "source": 32,
+      "target": 74,
+      "strength": 164
+    },
+    {
+      "source": 224,
+      "target": 286,
+      "strength": 164
+    },
+    {
+      "source": 1,
+      "target": 188,
+      "strength": 301
+    },
+    {
+      "source": 42,
+      "target": 70,
+      "strength": 161
+    },
+    {
+      "source": 76,
+      "target": 94,
+      "strength": 158
+    },
+    {
+      "source": 32,
+      "target": 184,
+      "strength": 154
+    },
+    {
+      "source": 76,
+      "target": 125,
+      "strength": 154
+    },
+    {
+      "source": 41,
+      "target": 103,
+      "strength": 153
+    },
+    {
+      "source": 107,
+      "target": 224,
+      "strength": 151
+    },
+    {
+      "source": 31,
+      "target": 32,
+      "strength": 150
+    },
+    {
+      "source": 32,
+      "target": 103,
+      "strength": 148
+    },
+    {
+      "source": 27,
+      "target": 125,
+      "strength": 148
+    },
+    {
+      "source": 33,
+      "target": 514,
+      "strength": 142
+    },
+    {
+      "source": 33,
+      "target": 659,
+      "strength": 140
+    },
+    {
+      "source": 30,
+      "target": 65,
+      "strength": 138
+    },
+    {
+      "source": 1,
+      "target": 103,
+      "strength": 137
+    },
+    {
+      "source": 107,
+      "target": 181,
+      "strength": 137
+    },
+    {
+      "source": 76,
+      "target": 186,
+      "strength": 136
+    },
+    {
+      "source": 32,
+      "target": 33,
+      "strength": 136
+    },
+    {
+      "source": 337,
+      "target": 542,
+      "strength": 132
+    },
+    {
+      "source": 47,
+      "target": 58,
+      "strength": 131
+    },
+    {
+      "source": 41,
+      "target": 184,
+      "strength": 129
+    },
+    {
+      "source": 76,
+      "target": 107,
+      "strength": 126
+    },
+    {
+      "source": 18,
+      "target": 41,
+      "strength": 126
+    },
+    {
+      "source": 1,
+      "target": 42,
+      "strength": 125
+    },
+    {
+      "source": 97,
+      "target": 250,
+      "strength": 120
+    },
+    {
+      "source": 183,
+      "target": 542,
+      "strength": 120
+    },
+    {
+      "source": 36,
+      "target": 76,
+      "strength": 118
+    },
+    {
+      "source": 79,
+      "target": 468,
+      "strength": 117
+    },
+    {
+      "source": 6,
+      "target": 76,
+      "strength": 116
+    },
+    {
+      "source": 76,
+      "target": 85,
+      "strength": 114
+    },
+    {
+      "source": 33,
+      "target": 125,
+      "strength": 112
+    },
+    {
+      "source": 1,
+      "target": 36,
+      "strength": 111
+    },
+    {
+      "source": 18,
+      "target": 49,
+      "strength": 111
+    },
+    {
+      "source": 26,
+      "target": 76,
+      "strength": 110
+    },
+    {
+      "source": 49,
+      "target": 107,
+      "strength": 110
+    },
+    {
+      "source": 18,
+      "target": 297,
+      "strength": 110
+    },
+    {
+      "source": 25,
+      "target": 250,
+      "strength": 108
+    },
+    {
+      "source": 42,
+      "target": 247,
+      "strength": 108
+    },
+    {
+      "source": 25,
+      "target": 42,
+      "strength": 107
+    },
+    {
+      "source": 224,
+      "target": 236,
+      "strength": 107
+    },
+    {
+      "source": 30,
+      "target": 236,
+      "strength": 107
+    },
+    {
+      "source": 18,
+      "target": 247,
+      "strength": 106
+    },
+    {
+      "source": 32,
+      "target": 236,
+      "strength": 105
+    },
+    {
+      "source": 41,
+      "target": 322,
+      "strength": 104
+    },
+    {
+      "source": 33,
+      "target": 45,
+      "strength": 104
+    },
+    {
+      "source": 18,
+      "target": 26,
+      "strength": 104
+    },
+    {
+      "source": 32,
+      "target": 181,
+      "strength": 103
+    },
+    {
+      "source": 45,
+      "target": 47,
+      "strength": 102
+    },
+    {
+      "source": 247,
+      "target": 659,
+      "strength": 101
+    },
+    {
+      "source": 27,
+      "target": 181,
+      "strength": 99
+    },
+    {
+      "source": 66,
+      "target": 137,
+      "strength": 98
+    },
+    {
+      "source": 125,
+      "target": 495,
+      "strength": 98
+    },
+    {
+      "source": 18,
+      "target": 322,
+      "strength": 97
+    },
+    {
+      "source": 49,
+      "target": 125,
+      "strength": 97
+    },
+    {
+      "source": 42,
+      "target": 76,
+      "strength": 96
+    },
+    {
+      "source": 76,
+      "target": 77,
+      "strength": 96
+    },
+    {
+      "source": 107,
+      "target": 359,
+      "strength": 96
+    },
+    {
+      "source": 32,
+      "target": 185,
+      "strength": 95
+    },
+    {
+      "source": 49,
+      "target": 514,
+      "strength": 93
+    },
+    {
+      "source": 49,
+      "target": 659,
+      "strength": 92
+    },
+    {
+      "source": 41,
+      "target": 236,
+      "strength": 91
+    },
+    {
+      "source": 30,
+      "target": 76,
+      "strength": 91
+    },
+    {
+      "source": 42,
+      "target": 125,
+      "strength": 91
+    },
+    {
+      "source": 77,
+      "target": 362,
+      "strength": 90
+    },
+    {
+      "source": 26,
+      "target": 42,
+      "strength": 89
+    },
+    {
+      "source": 27,
+      "target": 49,
+      "strength": 88
+    },
+    {
+      "source": 30,
+      "target": 42,
+      "strength": 88
+    },
+    {
+      "source": 18,
+      "target": 103,
+      "strength": 88
+    },
+    {
+      "source": 25,
+      "target": 77,
+      "strength": 87
+    },
+    {
+      "source": 47,
+      "target": 66,
+      "strength": 86
+    },
+    {
+      "source": 25,
+      "target": 103,
+      "strength": 86
+    },
+    {
+      "source": 36,
+      "target": 186,
+      "strength": 85
+    },
+    {
+      "source": 36,
+      "target": 125,
+      "strength": 85
+    },
+    {
+      "source": 27,
+      "target": 186,
+      "strength": 85
+    },
+    {
+      "source": 49,
+      "target": 76,
+      "strength": 85
+    },
+    {
+      "source": 47,
+      "target": 49,
+      "strength": 84
+    },
+    {
+      "source": 27,
+      "target": 46,
+      "strength": 84
+    },
+    {
+      "source": 18,
+      "target": 236,
+      "strength": 84
+    },
+    {
+      "source": 45,
+      "target": 250,
+      "strength": 83
+    },
+    {
+      "source": 27,
+      "target": 811,
+      "strength": 83
+    },
+    {
+      "source": 30,
+      "target": 92,
+      "strength": 83
+    },
+    {
+      "source": 1,
+      "target": 138,
+      "strength": 82
+    },
+    {
+      "source": 66,
+      "target": 77,
+      "strength": 78
+    },
+    {
+      "source": 41,
+      "target": 66,
+      "strength": 78
+    },
+    {
+      "source": 107,
+      "target": 286,
+      "strength": 78
+    },
+    {
+      "source": 1,
+      "target": 187,
+      "strength": 77
+    },
+    {
+      "source": 94,
+      "target": 137,
+      "strength": 77
+    },
+    {
+      "source": 41,
+      "target": 297,
+      "strength": 76
+    },
+    {
+      "source": 1,
+      "target": 70,
+      "strength": 76
+    },
+    {
+      "source": 86,
+      "target": 224,
+      "strength": 76
+    },
+    {
+      "source": 183,
+      "target": 224,
+      "strength": 74
+    },
+    {
+      "source": 103,
+      "target": 184,
+      "strength": 73
+    },
+    {
+      "source": 25,
+      "target": 74,
+      "strength": 73
+    },
+    {
+      "source": 286,
+      "target": 542,
+      "strength": 73
+    },
+    {
+      "source": 1,
+      "target": 45,
+      "strength": 72
+    },
+    {
+      "source": 26,
+      "target": 32,
+      "strength": 71
+    },
+    {
+      "source": 186,
+      "target": 188,
+      "strength": 71
+    },
+    {
+      "source": 32,
+      "target": 94,
+      "strength": 70
+    },
+    {
+      "source": 182,
+      "target": 811,
+      "strength": 70
+    },
+    {
+      "source": 32,
+      "target": 49,
+      "strength": 69
+    },
+    {
+      "source": 103,
       "target": 171,
-      "weight": 5
+      "strength": 69
     },
     {
-      "source": 187,
-      "target": 567,
-      "weight": 5
+      "source": 27,
+      "target": 107,
+      "strength": 68
     },
     {
-      "source": 177,
-      "target": 37,
-      "weight": 5
+      "source": 46,
+      "target": 76,
+      "strength": 67
+    },
+    {
+      "source": 181,
+      "target": 542,
+      "strength": 66
+    },
+    {
+      "source": 33,
+      "target": 247,
+      "strength": 65
+    },
+    {
+      "source": 297,
+      "target": 542,
+      "strength": 65
+    },
+    {
+      "source": 36,
+      "target": 810,
+      "strength": 65
+    },
+    {
+      "source": 47,
+      "target": 70,
+      "strength": 64
+    },
+    {
+      "source": 25,
+      "target": 297,
+      "strength": 63
+    },
+    {
+      "source": 18,
+      "target": 32,
+      "strength": 63
+    },
+    {
+      "source": 32,
+      "target": 45,
+      "strength": 62
+    },
+    {
+      "source": 18,
+      "target": 224,
+      "strength": 62
+    },
+    {
+      "source": 11,
+      "target": 296,
+      "strength": 62
+    },
+    {
+      "source": 76,
+      "target": 296,
+      "strength": 60
+    },
+    {
+      "source": 66,
+      "target": 250,
+      "strength": 60
+    },
+    {
+      "source": 103,
+      "target": 362,
+      "strength": 60
+    },
+    {
+      "source": 76,
+      "target": 286,
+      "strength": 59
+    },
+    {
+      "source": 42,
+      "target": 362,
+      "strength": 58
+    },
+    {
+      "source": 27,
+      "target": 137,
+      "strength": 58
+    },
+    {
+      "source": 185,
+      "target": 224,
+      "strength": 57
+    },
+    {
+      "source": 185,
+      "target": 542,
+      "strength": 57
+    },
+    {
+      "source": 107,
+      "target": 322,
+      "strength": 56
+    },
+    {
+      "source": 77,
+      "target": 297,
+      "strength": 56
+    },
+    {
+      "source": 36,
+      "target": 250,
+      "strength": 56
+    },
+    {
+      "source": 41,
+      "target": 296,
+      "strength": 56
+    },
+    {
+      "source": 27,
+      "target": 79,
+      "strength": 55
+    },
+    {
+      "source": 18,
+      "target": 137,
+      "strength": 55
+    },
+    {
+      "source": 32,
+      "target": 58,
+      "strength": 54
+    },
+    {
+      "source": 41,
+      "target": 188,
+      "strength": 54
+    },
+    {
+      "source": 107,
+      "target": 182,
+      "strength": 54
+    },
+    {
+      "source": 362,
+      "target": 440,
+      "strength": 54
+    },
+    {
+      "source": 66,
+      "target": 286,
+      "strength": 54
+    },
+    {
+      "source": 18,
+      "target": 66,
+      "strength": 54
+    },
+    {
+      "source": 1,
+      "target": 58,
+      "strength": 53
+    },
+    {
+      "source": 27,
+      "target": 77,
+      "strength": 53
+    },
+    {
+      "source": 27,
+      "target": 297,
+      "strength": 53
+    },
+    {
+      "source": 296,
+      "target": 362,
+      "strength": 53
+    },
+    {
+      "source": 74,
+      "target": 322,
+      "strength": 53
+    },
+    {
+      "source": 94,
+      "target": 247,
+      "strength": 53
+    },
+    {
+      "source": 1,
+      "target": 26,
+      "strength": 52
+    },
+    {
+      "source": 47,
+      "target": 184,
+      "strength": 52
+    },
+    {
+      "source": 6,
+      "target": 27,
+      "strength": 52
+    },
+    {
+      "source": 6,
+      "target": 103,
+      "strength": 52
+    },
+    {
+      "source": 31,
+      "target": 47,
+      "strength": 51
+    },
+    {
+      "source": 11,
+      "target": 182,
+      "strength": 51
+    },
+    {
+      "source": 70,
+      "target": 224,
+      "strength": 51
+    },
+    {
+      "source": 27,
+      "target": 42,
+      "strength": 51
+    },
+    {
+      "source": 107,
+      "target": 468,
+      "strength": 51
+    },
+    {
+      "source": 25,
+      "target": 94,
+      "strength": 50
+    },
+    {
+      "source": 137,
+      "target": 250,
+      "strength": 50
+    },
+    {
+      "source": 27,
+      "target": 180,
+      "strength": 49
+    },
+    {
+      "source": 118,
+      "target": 179,
+      "strength": 49
+    },
+    {
+      "source": 70,
+      "target": 296,
+      "strength": 49
+    },
+    {
+      "source": 79,
+      "target": 297,
+      "strength": 48
+    },
+    {
+      "source": 66,
+      "target": 297,
+      "strength": 48
+    },
+    {
+      "source": 1,
+      "target": 185,
+      "strength": 47
+    },
+    {
+      "source": 186,
+      "target": 362,
+      "strength": 47
+    },
+    {
+      "source": 42,
+      "target": 66,
+      "strength": 47
+    },
+    {
+      "source": 22,
+      "target": 130,
+      "strength": 47
+    },
+    {
+      "source": 100,
+      "target": 183,
+      "strength": 47
+    },
+    {
+      "source": 7,
+      "target": 76,
+      "strength": 47
+    },
+    {
+      "source": 26,
+      "target": 250,
+      "strength": 46
+    },
+    {
+      "source": 27,
+      "target": 41,
+      "strength": 46
+    },
+    {
+      "source": 33,
+      "target": 359,
+      "strength": 46
+    },
+    {
+      "source": 138,
+      "target": 250,
+      "strength": 46
+    },
+    {
+      "source": 58,
+      "target": 94,
+      "strength": 46
+    },
+    {
+      "source": 18,
+      "target": 182,
+      "strength": 46
+    },
+    {
+      "source": 25,
+      "target": 185,
+      "strength": 46
+    },
+    {
+      "source": 58,
+      "target": 138,
+      "strength": 45
+    },
+    {
+      "source": 65,
+      "target": 76,
+      "strength": 45
+    },
+    {
+      "source": 33,
+      "target": 137,
+      "strength": 45
+    },
+    {
+      "source": 125,
+      "target": 236,
+      "strength": 45
+    },
+    {
+      "source": 85,
+      "target": 169,
+      "strength": 45
+    },
+    {
+      "source": 36,
+      "target": 311,
+      "strength": 44
+    },
+    {
+      "source": 32,
+      "target": 77,
+      "strength": 44
+    },
+    {
+      "source": 1,
+      "target": 236,
+      "strength": 44
+    },
+    {
+      "source": 18,
+      "target": 311,
+      "strength": 43
+    },
+    {
+      "source": 11,
+      "target": 362,
+      "strength": 43
+    },
+    {
+      "source": 32,
+      "target": 322,
+      "strength": 43
+    },
+    {
+      "source": 36,
+      "target": 107,
+      "strength": 43
+    },
+    {
+      "source": 184,
+      "target": 456,
+      "strength": 42
+    },
+    {
+      "source": 33,
+      "target": 130,
+      "strength": 42
+    },
+    {
+      "source": 76,
+      "target": 183,
+      "strength": 42
+    },
+    {
+      "source": 1,
+      "target": 97,
+      "strength": 42
+    },
+    {
+      "source": 11,
+      "target": 181,
+      "strength": 42
+    },
+    {
+      "source": 6,
+      "target": 85,
+      "strength": 42
+    },
+    {
+      "source": 76,
+      "target": 311,
+      "strength": 42
+    },
+    {
+      "source": 77,
+      "target": 181,
+      "strength": 42
     },
     {
       "source": 32,
       "target": 36,
-      "weight": 5
+      "strength": 42
     },
     {
-      "source": 11,
-      "target": 188,
-      "weight": 5
+      "source": 103,
+      "target": 186,
+      "strength": 42
     },
     {
-      "source": 19,
-      "target": 542,
-      "weight": 5
+      "source": 103,
+      "target": 359,
+      "strength": 42
     },
     {
-      "source": 659,
-      "target": 83,
-      "weight": 5
+      "source": 32,
+      "target": 659,
+      "strength": 42
     },
     {
-      "source": 49,
-      "target": 100,
-      "weight": 5
+      "source": 41,
+      "target": 428,
+      "strength": 42
     },
     {
-      "source": 542,
-      "target": 76,
-      "weight": 5
-    },
-    {
-      "source": 97,
-      "target": 42,
-      "weight": 5
-    },
-    {
-      "source": 102,
-      "target": 22,
-      "weight": 5
-    },
-    {
-      "source": 374,
-      "target": 267,
-      "weight": 5
-    },
-    {
-      "source": 74,
-      "target": 441,
-      "weight": 5
-    },
-    {
-      "source": 179,
-      "target": 79,
-      "weight": 5
-    },
-    {
-      "source": 444,
-      "target": 250,
-      "weight": 5
-    },
-    {
-      "source": 58,
-      "target": 86,
-      "weight": 5
-    },
-    {
-      "source": 102,
-      "target": 88,
-      "weight": 5
-    },
-    {
-      "source": 65,
-      "target": 286,
-      "weight": 5
-    },
-    {
-      "source": 66,
-      "target": 465,
-      "weight": 5
-    },
-    {
-      "source": 187,
-      "target": 33,
-      "weight": 5
-    },
-    {
-      "source": 374,
-      "target": 88,
-      "weight": 5
-    },
-    {
-      "source": 66,
-      "target": 542,
-      "weight": 5
-    },
-    {
-      "source": 11,
-      "target": 188,
-      "weight": 5
-    },
-    {
-      "source": 693,
-      "target": 468,
-      "weight": 5
-    },
-    {
-      "source": 169,
-      "target": 693,
-      "weight": 5
+      "source": 125,
+      "target": 428,
+      "strength": 42
     },
     {
       "source": 22,
-      "target": 92,
-      "weight": 5
+      "target": 76,
+      "strength": 41
     },
     {
-      "source": 118,
-      "target": 31,
-      "weight": 5
+      "source": 76,
+      "target": 456,
+      "strength": 41
     },
     {
-      "source": 456,
-      "target": 49,
-      "weight": 5
+      "source": 18,
+      "target": 30,
+      "strength": 41
     },
     {
-      "source": 31,
-      "target": 125,
-      "weight": 5
-    },
-    {
-      "source": 514,
+      "source": 79,
       "target": 182,
-      "weight": 5
+      "strength": 41
+    },
+    {
+      "source": 41,
+      "target": 187,
+      "strength": 41
+    },
+    {
+      "source": 66,
+      "target": 94,
+      "strength": 41
+    },
+    {
+      "source": 27,
+      "target": 47,
+      "strength": 40
+    },
+    {
+      "source": 27,
+      "target": 30,
+      "strength": 40
+    },
+    {
+      "source": 32,
+      "target": 359,
+      "strength": 40
     },
     {
       "source": 33,
       "target": 74,
-      "weight": 5
+      "strength": 39
     },
     {
-      "source": 444,
+      "source": 32,
+      "target": 362,
+      "strength": 39
+    },
+    {
+      "source": 49,
+      "target": 58,
+      "strength": 39
+    },
+    {
+      "source": 32,
+      "target": 46,
+      "strength": 39
+    },
+    {
+      "source": 182,
+      "target": 542,
+      "strength": 39
+    },
+    {
+      "source": 30,
+      "target": 138,
+      "strength": 39
+    },
+    {
+      "source": 26,
+      "target": 47,
+      "strength": 38
+    },
+    {
+      "source": 98,
+      "target": 297,
+      "strength": 38
+    },
+    {
+      "source": 6,
+      "target": 362,
+      "strength": 38
+    },
+    {
+      "source": 66,
+      "target": 107,
+      "strength": 38
+    },
+    {
+      "source": 36,
+      "target": 42,
+      "strength": 38
+    },
+    {
+      "source": 25,
+      "target": 33,
+      "strength": 38
+    },
+    {
+      "source": 76,
+      "target": 297,
+      "strength": 38
+    },
+    {
+      "source": 33,
+      "target": 36,
+      "strength": 38
+    },
+    {
+      "source": 76,
       "target": 130,
-      "weight": 5
+      "strength": 38
+    },
+    {
+      "source": 25,
+      "target": 183,
+      "strength": 38
+    },
+    {
+      "source": 65,
+      "target": 514,
+      "strength": 38
+    },
+    {
+      "source": 22,
+      "target": 542,
+      "strength": 38
+    },
+    {
+      "source": 42,
+      "target": 580,
+      "strength": 38
+    },
+    {
+      "source": 25,
+      "target": 296,
+      "strength": 37
     },
     {
       "source": 468,
-      "target": 94,
-      "weight": 5
-    },
-    {
-      "source": 97,
-      "target": 247,
-      "weight": 5
-    },
-    {
-      "source": 171,
-      "target": 441,
-      "weight": 5
-    },
-    {
-      "source": 695,
-      "target": 232,
-      "weight": 5
-    },
-    {
-      "source": 188,
-      "target": 79,
-      "weight": 5
+      "target": 542,
+      "strength": 37
     },
     {
       "source": 107,
+      "target": 314,
+      "strength": 37
+    },
+    {
+      "source": 182,
+      "target": 362,
+      "strength": 37
+    },
+    {
+      "source": 1,
+      "target": 495,
+      "strength": 37
+    },
+    {
+      "source": 74,
+      "target": 107,
+      "strength": 37
+    },
+    {
+      "source": 1,
+      "target": 31,
+      "strength": 36
+    },
+    {
+      "source": 6,
+      "target": 25,
+      "strength": 36
+    },
+    {
+      "source": 19,
+      "target": 181,
+      "strength": 36
+    },
+    {
+      "source": 322,
+      "target": 456,
+      "strength": 36
+    },
+    {
+      "source": 181,
+      "target": 224,
+      "strength": 36
+    },
+    {
+      "source": 25,
+      "target": 169,
+      "strength": 36
+    },
+    {
+      "source": 94,
+      "target": 811,
+      "strength": 36
+    },
+    {
+      "source": 297,
+      "target": 811,
+      "strength": 36
+    },
+    {
+      "source": 25,
+      "target": 137,
+      "strength": 36
+    },
+    {
+      "source": 1,
+      "target": 88,
+      "strength": 36
+    },
+    {
+      "source": 76,
+      "target": 542,
+      "strength": 36
+    },
+    {
+      "source": 107,
+      "target": 580,
+      "strength": 36
+    },
+    {
+      "source": 65,
+      "target": 103,
+      "strength": 36
+    },
+    {
+      "source": 74,
+      "target": 130,
+      "strength": 35
+    },
+    {
+      "source": 187,
+      "target": 250,
+      "strength": 35
+    },
+    {
+      "source": 27,
+      "target": 182,
+      "strength": 35
+    },
+    {
+      "source": 70,
+      "target": 186,
+      "strength": 35
+    },
+    {
+      "source": 18,
+      "target": 296,
+      "strength": 35
+    },
+    {
+      "source": 495,
+      "target": 542,
+      "strength": 35
+    },
+    {
+      "source": 27,
+      "target": 224,
+      "strength": 34
+    },
+    {
+      "source": 25,
+      "target": 47,
+      "strength": 34
+    },
+    {
+      "source": 70,
+      "target": 76,
+      "strength": 34
+    },
+    {
+      "source": 41,
+      "target": 74,
+      "strength": 34
+    },
+    {
+      "source": 27,
+      "target": 184,
+      "strength": 34
+    },
+    {
+      "source": 18,
+      "target": 47,
+      "strength": 34
+    },
+    {
+      "source": 49,
+      "target": 97,
+      "strength": 34
+    },
+    {
+      "source": 45,
+      "target": 74,
+      "strength": 33
+    },
+    {
+      "source": 1,
+      "target": 98,
+      "strength": 33
+    },
+    {
+      "source": 19,
+      "target": 296,
+      "strength": 33
+    },
+    {
+      "source": 25,
+      "target": 107,
+      "strength": 33
+    },
+    {
+      "source": 76,
+      "target": 184,
+      "strength": 33
+    },
+    {
+      "source": 31,
+      "target": 297,
+      "strength": 33
+    },
+    {
+      "source": 42,
+      "target": 359,
+      "strength": 33
+    },
+    {
+      "source": 26,
+      "target": 236,
+      "strength": 33
+    },
+    {
+      "source": 32,
+      "target": 66,
+      "strength": 33
+    },
+    {
+      "source": 236,
+      "target": 359,
+      "strength": 33
+    },
+    {
+      "source": 58,
+      "target": 495,
+      "strength": 33
+    },
+    {
+      "source": 18,
+      "target": 65,
+      "strength": 33
+    },
+    {
+      "source": 41,
+      "target": 286,
+      "strength": 32
+    },
+    {
+      "source": 79,
+      "target": 184,
+      "strength": 32
+    },
+    {
+      "source": 94,
+      "target": 98,
+      "strength": 32
+    },
+    {
+      "source": 18,
+      "target": 45,
+      "strength": 32
+    },
+    {
+      "source": 25,
+      "target": 130,
+      "strength": 32
+    },
+    {
+      "source": 32,
+      "target": 296,
+      "strength": 32
+    },
+    {
+      "source": 542,
+      "target": 695,
+      "strength": 32
+    },
+    {
+      "source": 19,
+      "target": 267,
+      "strength": 32
+    },
+    {
+      "source": 36,
+      "target": 47,
+      "strength": 31
+    },
+    {
+      "source": 224,
+      "target": 297,
+      "strength": 31
+    },
+    {
+      "source": 25,
+      "target": 79,
+      "strength": 31
+    },
+    {
+      "source": 1,
+      "target": 171,
+      "strength": 31
+    },
+    {
+      "source": 58,
+      "target": 137,
+      "strength": 31
+    },
+    {
+      "source": 19,
+      "target": 495,
+      "strength": 31
+    },
+    {
+      "source": 66,
+      "target": 79,
+      "strength": 31
+    },
+    {
+      "source": 296,
+      "target": 542,
+      "strength": 31
+    },
+    {
+      "source": 1,
+      "target": 66,
+      "strength": 31
+    },
+    {
+      "source": 22,
+      "target": 181,
+      "strength": 31
+    },
+    {
+      "source": 49,
+      "target": 137,
+      "strength": 30
+    },
+    {
+      "source": 27,
+      "target": 138,
+      "strength": 30
+    },
+    {
+      "source": 79,
+      "target": 107,
+      "strength": 30
+    },
+    {
+      "source": 58,
+      "target": 362,
+      "strength": 30
+    },
+    {
+      "source": 77,
+      "target": 224,
+      "strength": 30
+    },
+    {
+      "source": 77,
+      "target": 185,
+      "strength": 30
+    },
+    {
+      "source": 25,
+      "target": 181,
+      "strength": 30
+    },
+    {
+      "source": 88,
+      "target": 362,
+      "strength": 30
+    },
+    {
+      "source": 25,
+      "target": 46,
+      "strength": 30
+    },
+    {
+      "source": 18,
+      "target": 184,
+      "strength": 30
+    },
+    {
+      "source": 70,
+      "target": 495,
+      "strength": 30
+    },
+    {
+      "source": 6,
+      "target": 297,
+      "strength": 30
+    },
+    {
+      "source": 42,
+      "target": 542,
+      "strength": 30
+    },
+    {
+      "source": 107,
+      "target": 337,
+      "strength": 30
+    },
+    {
+      "source": 76,
+      "target": 185,
+      "strength": 30
+    },
+    {
+      "source": 1,
+      "target": 286,
+      "strength": 30
+    },
+    {
+      "source": 18,
+      "target": 286,
+      "strength": 30
+    },
+    {
+      "source": 495,
+      "target": 580,
+      "strength": 30
+    },
+    {
+      "source": 46,
+      "target": 94,
+      "strength": 30
+    },
+    {
+      "source": 26,
+      "target": 286,
+      "strength": 30
+    },
+    {
+      "source": 74,
+      "target": 187,
+      "strength": 29
+    },
+    {
+      "source": 11,
+      "target": 25,
+      "strength": 29
+    },
+    {
+      "source": 79,
+      "target": 100,
+      "strength": 29
+    },
+    {
+      "source": 58,
+      "target": 311,
+      "strength": 29
+    },
+    {
+      "source": 41,
+      "target": 171,
+      "strength": 29
+    },
+    {
+      "source": 26,
+      "target": 224,
+      "strength": 29
+    },
+    {
+      "source": 18,
+      "target": 138,
+      "strength": 29
+    },
+    {
+      "source": 286,
+      "target": 811,
+      "strength": 29
+    },
+    {
+      "source": 76,
+      "target": 514,
+      "strength": 29
+    },
+    {
+      "source": 19,
+      "target": 286,
+      "strength": 29
+    },
+    {
+      "source": 1,
+      "target": 378,
+      "strength": 29
+    },
+    {
+      "source": 311,
+      "target": 495,
+      "strength": 29
+    },
+    {
+      "source": 183,
+      "target": 811,
+      "strength": 29
+    },
+    {
+      "source": 30,
+      "target": 378,
+      "strength": 29
+    },
+    {
+      "source": 32,
+      "target": 297,
+      "strength": 28
+    },
+    {
+      "source": 76,
+      "target": 250,
+      "strength": 28
+    },
+    {
+      "source": 18,
+      "target": 27,
+      "strength": 28
+    },
+    {
+      "source": 250,
+      "target": 322,
+      "strength": 28
+    },
+    {
+      "source": 76,
+      "target": 359,
+      "strength": 28
+    },
+    {
+      "source": 42,
+      "target": 514,
+      "strength": 28
+    },
+    {
+      "source": 6,
+      "target": 42,
+      "strength": 28
+    },
+    {
+      "source": 33,
+      "target": 42,
+      "strength": 28
+    },
+    {
+      "source": 7,
+      "target": 125,
+      "strength": 27
+    },
+    {
+      "source": 33,
+      "target": 456,
+      "strength": 27
+    },
+    {
+      "source": 42,
+      "target": 811,
+      "strength": 27
+    },
+    {
+      "source": 181,
+      "target": 693,
+      "strength": 27
+    },
+    {
+      "source": 45,
+      "target": 183,
+      "strength": 27
+    },
+    {
+      "source": 22,
+      "target": 811,
+      "strength": 27
+    },
+    {
+      "source": 236,
+      "target": 580,
+      "strength": 27
+    },
+    {
+      "source": 182,
+      "target": 311,
+      "strength": 26
+    },
+    {
+      "source": 63,
+      "target": 76,
+      "strength": 26
+    },
+    {
+      "source": 103,
+      "target": 250,
+      "strength": 26
+    },
+    {
+      "source": 26,
+      "target": 182,
+      "strength": 26
+    },
+    {
+      "source": 76,
+      "target": 442,
+      "strength": 26
+    },
+    {
+      "source": 70,
+      "target": 125,
+      "strength": 26
+    },
+    {
+      "source": 25,
+      "target": 337,
+      "strength": 26
+    },
+    {
+      "source": 100,
+      "target": 468,
+      "strength": 26
+    },
+    {
+      "source": 125,
+      "target": 185,
+      "strength": 25
+    },
+    {
+      "source": 41,
+      "target": 97,
+      "strength": 25
+    },
+    {
+      "source": 76,
+      "target": 137,
+      "strength": 25
+    },
+    {
+      "source": 27,
+      "target": 468,
+      "strength": 25
+    },
+    {
+      "source": 100,
+      "target": 130,
+      "strength": 25
+    },
+    {
+      "source": 468,
+      "target": 693,
+      "strength": 25
+    },
+    {
+      "source": 22,
+      "target": 27,
+      "strength": 25
+    },
+    {
+      "source": 85,
+      "target": 137,
+      "strength": 25
+    },
+    {
+      "source": 297,
+      "target": 362,
+      "strength": 25
+    },
+    {
+      "source": 236,
+      "target": 378,
+      "strength": 25
+    },
+    {
+      "source": 19,
+      "target": 171,
+      "strength": 24
+    },
+    {
+      "source": 26,
+      "target": 33,
+      "strength": 24
+    },
+    {
+      "source": 19,
+      "target": 25,
+      "strength": 24
+    },
+    {
+      "source": 74,
+      "target": 76,
+      "strength": 24
+    },
+    {
+      "source": 171,
+      "target": 186,
+      "strength": 24
+    },
+    {
+      "source": 27,
+      "target": 188,
+      "strength": 24
+    },
+    {
+      "source": 94,
+      "target": 188,
+      "strength": 24
+    },
+    {
+      "source": 31,
+      "target": 33,
+      "strength": 24
+    },
+    {
+      "source": 41,
+      "target": 58,
+      "strength": 24
+    },
+    {
+      "source": 1,
+      "target": 182,
+      "strength": 24
+    },
+    {
+      "source": 19,
+      "target": 85,
+      "strength": 24
+    },
+    {
+      "source": 25,
+      "target": 63,
+      "strength": 24
+    },
+    {
+      "source": 41,
+      "target": 183,
+      "strength": 23
+    },
+    {
+      "source": 97,
+      "target": 98,
+      "strength": 23
+    },
+    {
+      "source": 47,
+      "target": 236,
+      "strength": 23
+    },
+    {
+      "source": 19,
+      "target": 79,
+      "strength": 23
+    },
+    {
+      "source": 42,
+      "target": 250,
+      "strength": 23
+    },
+    {
+      "source": 6,
+      "target": 180,
+      "strength": 23
+    },
+    {
+      "source": 47,
+      "target": 359,
+      "strength": 23
+    },
+    {
+      "source": 184,
+      "target": 362,
+      "strength": 23
+    },
+    {
+      "source": 41,
+      "target": 495,
+      "strength": 23
+    },
+    {
+      "source": 359,
+      "target": 495,
+      "strength": 23
+    },
+    {
+      "source": 41,
+      "target": 659,
+      "strength": 23
+    },
+    {
+      "source": 58,
+      "target": 107,
+      "strength": 22
+    },
+    {
+      "source": 36,
+      "target": 182,
+      "strength": 22
+    },
+    {
+      "source": 27,
+      "target": 236,
+      "strength": 22
+    },
+    {
+      "source": 98,
+      "target": 250,
+      "strength": 22
+    },
+    {
+      "source": 125,
+      "target": 362,
+      "strength": 22
+    },
+    {
+      "source": 31,
+      "target": 125,
+      "strength": 22
+    },
+    {
+      "source": 19,
+      "target": 311,
+      "strength": 22
+    },
+    {
+      "source": 31,
+      "target": 250,
+      "strength": 22
+    },
+    {
+      "source": 1,
+      "target": 19,
+      "strength": 22
+    },
+    {
+      "source": 47,
+      "target": 94,
+      "strength": 22
+    },
+    {
+      "source": 181,
+      "target": 362,
+      "strength": 22
+    },
+    {
+      "source": 6,
+      "target": 440,
+      "strength": 22
+    },
+    {
+      "source": 42,
+      "target": 440,
+      "strength": 22
+    },
+    {
+      "source": 42,
+      "target": 186,
+      "strength": 22
+    },
+    {
+      "source": 186,
+      "target": 440,
+      "strength": 22
+    },
+    {
+      "source": 185,
+      "target": 186,
+      "strength": 22
+    },
+    {
+      "source": 41,
+      "target": 94,
+      "strength": 22
+    },
+    {
+      "source": 495,
+      "target": 810,
+      "strength": 22
+    },
+    {
+      "source": 70,
+      "target": 79,
+      "strength": 22
+    },
+    {
+      "source": 7,
+      "target": 180,
+      "strength": 22
+    },
+    {
+      "source": 362,
+      "target": 495,
+      "strength": 22
+    },
+    {
+      "source": 46,
+      "target": 539,
+      "strength": 22
+    },
+    {
+      "source": 137,
+      "target": 311,
+      "strength": 22
+    },
+    {
+      "source": 66,
+      "target": 296,
+      "strength": 21
+    },
+    {
+      "source": 65,
+      "target": 224,
+      "strength": 21
+    },
+    {
+      "source": 31,
+      "target": 107,
+      "strength": 21
+    },
+    {
+      "source": 130,
+      "target": 187,
+      "strength": 21
+    },
+    {
+      "source": 76,
+      "target": 98,
+      "strength": 21
+    },
+    {
+      "source": 92,
+      "target": 296,
+      "strength": 21
+    },
+    {
+      "source": 137,
+      "target": 322,
+      "strength": 21
+    },
+    {
+      "source": 27,
+      "target": 100,
+      "strength": 21
+    },
+    {
+      "source": 183,
+      "target": 514,
+      "strength": 21
+    },
+    {
+      "source": 76,
+      "target": 314,
+      "strength": 21
+    },
+    {
+      "source": 33,
       "target": 41,
-      "weight": 5
+      "strength": 21
+    },
+    {
+      "source": 103,
+      "target": 170,
+      "strength": 21
+    },
+    {
+      "source": 33,
+      "target": 98,
+      "strength": 21
+    },
+    {
+      "source": 25,
+      "target": 468,
+      "strength": 21
+    },
+    {
+      "source": 137,
+      "target": 362,
+      "strength": 21
+    },
+    {
+      "source": 185,
+      "target": 362,
+      "strength": 21
+    },
+    {
+      "source": 19,
+      "target": 138,
+      "strength": 21
+    },
+    {
+      "source": 66,
+      "target": 495,
+      "strength": 21
+    },
+    {
+      "source": 137,
+      "target": 179,
+      "strength": 21
+    },
+    {
+      "source": 118,
+      "target": 137,
+      "strength": 21
+    },
+    {
+      "source": 33,
+      "target": 495,
+      "strength": 21
+    },
+    {
+      "source": 27,
+      "target": 247,
+      "strength": 20
+    },
+    {
+      "source": 41,
+      "target": 181,
+      "strength": 20
+    },
+    {
+      "source": 1,
+      "target": 184,
+      "strength": 20
+    },
+    {
+      "source": 6,
+      "target": 100,
+      "strength": 20
+    },
+    {
+      "source": 27,
+      "target": 539,
+      "strength": 20
+    },
+    {
+      "source": 27,
+      "target": 514,
+      "strength": 20
+    },
+    {
+      "source": 30,
+      "target": 183,
+      "strength": 20
+    },
+    {
+      "source": 19,
+      "target": 297,
+      "strength": 20
+    },
+    {
+      "source": 314,
+      "target": 362,
+      "strength": 20
+    },
+    {
+      "source": 18,
+      "target": 58,
+      "strength": 20
+    },
+    {
+      "source": 45,
+      "target": 46,
+      "strength": 20
+    },
+    {
+      "source": 7,
+      "target": 25,
+      "strength": 20
     }
   ]
 }

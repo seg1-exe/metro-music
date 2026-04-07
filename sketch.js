@@ -593,6 +593,9 @@ function initTouchHandlers(canvasEl) {
         }
         _prevTouchDist = null;
         _prevTouchMid = null;
+        if (event.touches.length === 1) {
+            _touchStartPos = { x: event.touches[0].clientX, y: event.touches[0].clientY };
+        }
     }, { passive: false });
 }
 
@@ -728,10 +731,40 @@ function playCurrentStep() {
 }
 
 function updateTrainPosition() {
-    if (currentStationIdx >= currentPath.length - 1) { let finalS = currentPath[currentPath.length - 1]; trainPos = createVector(finalS.x, finalS.y); return; }
-    let startS = currentPath[currentStationIdx]; let nextS = currentPath[currentStationIdx + 1];
-    let elapsed = millis() - journeyTimer; let progress = constrain(elapsed / STATION_DURATION, 0, 1);
-    trainPos = createVector(lerp(startS.x, nextS.x, progress), lerp(startS.y, nextS.y, progress));
+    if (currentStationIdx >= currentPath.length - 1) {
+        let finalS = currentPath[currentPath.length - 1];
+        trainPos = createVector(finalS.x, finalS.y);
+        return;
+    }
+    let startS = currentPath[currentStationIdx];
+    let nextS = currentPath[currentStationIdx + 1];
+    let elapsed = millis() - journeyTimer;
+    let progress = constrain(elapsed / STATION_DURATION, 0, 1);
+    // Follow the routed path (with bend waypoints) instead of a straight line
+    let pts = insertWaypoints([startS, nextS]);
+    trainPos = interpolateAlongPath(pts, progress);
+}
+
+function interpolateAlongPath(pts, t) {
+    if (pts.length < 2) return createVector(pts[0].x, pts[0].y);
+    let lengths = [];
+    let totalLen = 0;
+    for (let i = 0; i < pts.length - 1; i++) {
+        let d = dist(pts[i].x, pts[i].y, pts[i + 1].x, pts[i + 1].y);
+        lengths.push(d);
+        totalLen += d;
+    }
+    if (totalLen === 0) return createVector(pts[0].x, pts[0].y);
+    let target = t * totalLen;
+    let acc = 0;
+    for (let i = 0; i < pts.length - 1; i++) {
+        if (acc + lengths[i] >= target) {
+            let segT = lengths[i] === 0 ? 0 : (target - acc) / lengths[i];
+            return createVector(lerp(pts[i].x, pts[i + 1].x, segT), lerp(pts[i].y, pts[i + 1].y, segT));
+        }
+        acc += lengths[i];
+    }
+    return createVector(pts[pts.length - 1].x, pts[pts.length - 1].y);
 }
 
 // --- STOP JOURNEY ---

@@ -76,6 +76,7 @@ function setup() {
     let c = createCanvas(canvasWrapper.width, canvasWrapper.height);
     c.parent('canvas-wrapper');
     textFont('Helvetica');
+    initTouchHandlers(c.elt);
 
     generateOptimizedLayout(SEED);
     applyParallelLineAdjustment();
@@ -489,95 +490,88 @@ function mousePressed() { isDragging = false; }
 function mouseReleased() { if (isDragging) return; if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) handleSelectionClick(); }
 function windowResized() { canvasWrapper = select('#canvas-wrapper'); resizeCanvas(canvasWrapper.width, canvasWrapper.height); calculateInitialCameraFit(); }
 
-// --- TOUCH SUPPORT ---
-let _prevTouchDist = null;
-let _prevTouchMid = null;
-let _touchStartPos = null;
-let _touchMoved = false;
+// --- TOUCH SUPPORT (attached directly to canvas in setup) ---
+function initTouchHandlers(canvasEl) {
+    let _prevTouchDist = null;
+    let _prevTouchMid = null;
+    let _touchStartPos = null;
+    let _touchMoved = false;
 
-function touchStarted(event) {
-    if (!event.touches || event.target !== canvas.elt) return false;
-    _touchMoved = false;
-    if (event.touches.length === 1) {
+    canvasEl.addEventListener('touchstart', (event) => {
+        event.preventDefault();
+        _touchMoved = false;
+        if (event.touches.length === 1) {
+            _prevTouchDist = null;
+            _prevTouchMid = null;
+            _touchStartPos = { x: event.touches[0].clientX, y: event.touches[0].clientY };
+        } else if (event.touches.length === 2) {
+            _touchStartPos = null;
+            let t0 = event.touches[0], t1 = event.touches[1];
+            _prevTouchDist = dist(t0.clientX, t0.clientY, t1.clientX, t1.clientY);
+            _prevTouchMid = { x: (t0.clientX + t1.clientX) / 2, y: (t0.clientY + t1.clientY) / 2 };
+        }
+    }, { passive: false });
+
+    canvasEl.addEventListener('touchmove', (event) => {
+        event.preventDefault();
+        _touchMoved = true;
+
+        if (event.touches.length === 1 && _touchStartPos) {
+            // Single finger pan
+            let dx = event.touches[0].clientX - _touchStartPos.x;
+            let dy = event.touches[0].clientY - _touchStartPos.y;
+            mapOffsetX += dx; mapOffsetY += dy;
+            _touchStartPos = { x: event.touches[0].clientX, y: event.touches[0].clientY };
+
+        } else if (event.touches.length === 2) {
+            // Two-finger pinch-to-zoom
+            let t0 = event.touches[0], t1 = event.touches[1];
+            let newDist = dist(t0.clientX, t0.clientY, t1.clientX, t1.clientY);
+            let newMid = { x: (t0.clientX + t1.clientX) / 2, y: (t0.clientY + t1.clientY) / 2 };
+
+            if (_prevTouchDist !== null && _prevTouchMid !== null) {
+                let s = newDist / _prevTouchDist;
+                let newScale = constrain(mapScale * s, minZoomScale, 5.0);
+                let wx = (newMid.x - mapOffsetX) / mapScale;
+                let wy = (newMid.y - mapOffsetY) / mapScale;
+                mapOffsetX = newMid.x - wx * newScale;
+                mapOffsetY = newMid.y - wy * newScale;
+                mapScale = newScale;
+                mapOffsetX += newMid.x - _prevTouchMid.x;
+                mapOffsetY += newMid.y - _prevTouchMid.y;
+            }
+            _prevTouchDist = newDist;
+            _prevTouchMid = newMid;
+        }
+    }, { passive: false });
+
+    canvasEl.addEventListener('touchend', (event) => {
+        event.preventDefault();
+        if (!_touchMoved && event.changedTouches && event.changedTouches.length === 1) {
+            // Tap = station selection
+            let t = event.changedTouches[0];
+            let rect = canvasEl.getBoundingClientRect();
+            let cx = t.clientX - rect.left;
+            let cy = t.clientY - rect.top;
+            let mx = (cx - mapOffsetX) / mapScale;
+            let my = (cy - mapOffsetY) / mapScale;
+
+            let clickedStation = null;
+            for (let s of stations) { if (dist(mx, my, s.x, s.y) < STATION_SIZE + 8) { clickedStation = s; break; } }
+            if (!clickedStation) { for (let h of cachedHubs) { let w = STATION_SIZE + (h.stations.length * 4); if (dist(mx, my, h.x, h.y) < w / 1.5) { clickedStation = h.stations[0]; break; } } }
+
+            if (clickedStation) {
+                if (!selectedStart) { selectedStart = clickedStation; selectedEnd = null; currentPath = []; }
+                else if (!selectedEnd) { selectedEnd = clickedStation; findPath(selectedStart, selectedEnd); }
+                else { selectedStart = clickedStation; selectedEnd = null; currentPath = []; stopJourney(false); resetMiniPlayer(); renderMainGenres(); }
+            } else {
+                selectedStart = null; selectedEnd = null; currentPath = [];
+                stopJourney(false); resetMiniPlayer(); renderMainGenres();
+            }
+        }
         _prevTouchDist = null;
         _prevTouchMid = null;
-        _touchStartPos = { x: event.touches[0].clientX, y: event.touches[0].clientY };
-    } else if (event.touches.length === 2) {
-        _touchStartPos = null;
-        let t0 = event.touches[0], t1 = event.touches[1];
-        _prevTouchDist = dist(t0.clientX, t0.clientY, t1.clientX, t1.clientY);
-        _prevTouchMid = { x: (t0.clientX + t1.clientX) / 2, y: (t0.clientY + t1.clientY) / 2 };
-    }
-    return false;
-}
-
-function touchMoved(event) {
-    if (!event.touches || event.target !== canvas.elt) return false;
-    _touchMoved = true;
-
-    if (event.touches.length === 1 && _touchStartPos) {
-        // Single finger pan
-        let dx = event.touches[0].clientX - _touchStartPos.x;
-        let dy = event.touches[0].clientY - _touchStartPos.y;
-        mapOffsetX += dx; mapOffsetY += dy;
-        _touchStartPos = { x: event.touches[0].clientX, y: event.touches[0].clientY };
-        isDragging = true;
-
-    } else if (event.touches.length === 2) {
-        // Two-finger pinch-to-zoom
-        let t0 = event.touches[0], t1 = event.touches[1];
-        let newDist = dist(t0.clientX, t0.clientY, t1.clientX, t1.clientY);
-        let newMid = { x: (t0.clientX + t1.clientX) / 2, y: (t0.clientY + t1.clientY) / 2 };
-
-        if (_prevTouchDist !== null && _prevTouchMid !== null) {
-            // Zoom centered on the pinch midpoint
-            let s = newDist / _prevTouchDist;
-            let newScale = constrain(mapScale * s, minZoomScale, 5.0);
-            let wx = (newMid.x - mapOffsetX) / mapScale;
-            let wy = (newMid.y - mapOffsetY) / mapScale;
-            mapOffsetX = newMid.x - wx * newScale;
-            mapOffsetY = newMid.y - wy * newScale;
-            mapScale = newScale;
-
-            // Pan with the midpoint drift
-            mapOffsetX += newMid.x - _prevTouchMid.x;
-            mapOffsetY += newMid.y - _prevTouchMid.y;
-        }
-        _prevTouchDist = newDist;
-        _prevTouchMid = newMid;
-    }
-    return false;
-}
-
-function touchEnded(event) {
-    if (event.target !== canvas.elt) return false;
-    if (!_touchMoved && event.changedTouches && event.changedTouches.length === 1) {
-        // Tap = station selection
-        let t = event.changedTouches[0];
-        // Map screen coords to canvas coords
-        let rect = canvas.elt.getBoundingClientRect();
-        let cx = t.clientX - rect.left;
-        let cy = t.clientY - rect.top;
-        let mx = (cx - mapOffsetX) / mapScale;
-        let my = (cy - mapOffsetY) / mapScale;
-
-        let clickedStation = null;
-        for (let s of stations) { if (dist(mx, my, s.x, s.y) < STATION_SIZE + 8) { clickedStation = s; break; } }
-        if (!clickedStation) { for (let h of cachedHubs) { let w = STATION_SIZE + (h.stations.length * 4); if (dist(mx, my, h.x, h.y) < w / 1.5) { clickedStation = h.stations[0]; break; } } }
-
-        if (clickedStation) {
-            if (!selectedStart) { selectedStart = clickedStation; selectedEnd = null; currentPath = []; }
-            else if (!selectedEnd) { selectedEnd = clickedStation; findPath(selectedStart, selectedEnd); }
-            else { selectedStart = clickedStation; selectedEnd = null; currentPath = []; stopJourney(false); resetMiniPlayer(); renderMainGenres(); }
-        } else {
-            selectedStart = null; selectedEnd = null; currentPath = [];
-            stopJourney(false); resetMiniPlayer(); renderMainGenres();
-        }
-    }
-    _prevTouchDist = null;
-    _prevTouchMid = null;
-    isDragging = false;
-    return false;
+    }, { passive: false });
 }
 
 // --- JOURNEY LOGIC ---

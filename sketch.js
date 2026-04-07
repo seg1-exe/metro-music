@@ -485,7 +485,7 @@ function mouseWheel(event) {
     if (abs(mapScale - minZoomScale) < 0.001) calculateInitialCameraFit();
     return false;
 }
-function mouseDragged() { if (mapScale > minZoomScale * 1.01) { isDragging = true; mapOffsetX += movedX; mapOffsetY += movedY; } }
+function mouseDragged() { if (touches.length > 0) return; if (mapScale > minZoomScale * 1.01) { isDragging = true; mapOffsetX += movedX; mapOffsetY += movedY; } }
 function mousePressed() { isDragging = false; }
 function mouseReleased() { if (isDragging) return; if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) handleSelectionClick(); }
 function windowResized() { canvasWrapper = select('#canvas-wrapper'); resizeCanvas(canvasWrapper.width, canvasWrapper.height); calculateInitialCameraFit(); }

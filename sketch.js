@@ -327,7 +327,7 @@ function renderMainGenres() {
         let li = createElement('li').addClass('nav-item').parent(ul);
         createElement('span').addClass('genre-dot').style('background', line.color).parent(li);
         createSpan(line.name.toUpperCase()).parent(li);
-        li.elt.addEventListener('click', () => renderSubgenres(line));
+        onTap(li.elt, () => renderSubgenres(line));
     });
 }
 
@@ -353,7 +353,7 @@ function renderSubgenres(lineObj) {
     navContent.html('');
 
     let backBtn = createDiv('← BACK TO GENRES').addClass('nav-item back-button').parent(navContent);
-    backBtn.elt.addEventListener('click', renderMainGenres);
+    onTap(backBtn.elt, renderMainGenres);
 
     let headerDiv = createDiv('').addClass('nav-header').parent(navContent);
     createElement('span').addClass('genre-dot').style('background', lineObj.color).parent(headerDiv);
@@ -367,7 +367,7 @@ function renderSubgenres(lineObj) {
         let li = createElement('li').addClass('nav-item').parent(ul);
         createElement('span').addClass('subgenre-dot').style('background', lineObj.color).parent(li);
         createSpan(station.name).parent(li);
-        li.elt.addEventListener('click', () => renderTracks(station, lineObj));
+        onTap(li.elt, () => renderTracks(station, lineObj));
     });
 }
 
@@ -378,7 +378,7 @@ function renderTracks(station, lineObj) {
     let backBtn = createDiv('← BACK TO ' + lineObj.name.toUpperCase())
         .addClass('nav-item back-button')
         .parent(navContent);
-    backBtn.elt.addEventListener('click', () => renderSubgenres(lineObj));
+    onTap(backBtn.elt, () => renderSubgenres(lineObj));
 
     createDiv(station.name)
         .style('font-weight', 'bold')
@@ -421,7 +421,7 @@ function renderTracks(station, lineObj) {
 
         playBtn.id('btn-' + track.id);
 
-        trackItem.elt.addEventListener('click', () => {
+        onTap(trackItem.elt, () => {
             updateMiniPlayer(track.title, track.artist, station.name, lineObj.color);
             playTrackManual(track, playBtn, trackItem);
         });
@@ -490,8 +490,30 @@ function mousePressed() { isDragging = false; }
 function mouseReleased() { if (isDragging) return; if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) handleSelectionClick(); }
 function windowResized() { canvasWrapper = select('#canvas-wrapper'); resizeCanvas(canvasWrapper.width, canvasWrapper.height); calculateInitialCameraFit(); }
 
+// Reliable tap handler for sidebar DOM elements:
+// fires on touchend (no 300ms delay) and prevents the synthetic click
+// from double-firing. Falls back to click on desktop.
+function onTap(el, fn) {
+    let startY = 0;
+    let didTouch = false;
+    el.addEventListener('touchstart', (e) => {
+        startY = e.touches[0].clientY;
+        didTouch = true;
+    }, { passive: true });
+    el.addEventListener('touchend', (e) => {
+        if (Math.abs(e.changedTouches[0].clientY - startY) < 10) {
+            e.preventDefault(); // stop synthetic click from firing
+            fn();
+        }
+        setTimeout(() => { didTouch = false; }, 500);
+    }, { passive: false });
+    el.addEventListener('click', () => { if (!didTouch) fn(); }); // desktop only
+}
+
 // --- TOUCH SUPPORT (attached directly to canvas in setup) ---
 function initTouchHandlers(canvasEl) {
+    // Tell the browser we handle all touch gestures on this element
+    canvasEl.style.touchAction = 'none';
     let _prevTouchDist = null;
     let _prevTouchMid = null;
     let _touchStartPos = null;
@@ -619,7 +641,7 @@ function renderJourneyItinerary() {
     navContent.html('');
 
     let backBtn = createDiv('← BACK').addClass('nav-item back-button').parent(navContent);
-    backBtn.elt.addEventListener('click', () => { stopJourney(false); resetMiniPlayer(); selectedStart = null; selectedEnd = null; currentPath = []; renderMainGenres(); });
+    onTap(backBtn.elt, () => { stopJourney(false); resetMiniPlayer(); selectedStart = null; selectedEnd = null; currentPath = []; renderMainGenres(); });
 
     let startStation = currentPath[0];
     let endStation = currentPath[currentPath.length - 1];

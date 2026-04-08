@@ -304,7 +304,8 @@ function initMiniPlayerEvents() {
                 let pauseDuration = millis() - journeyPauseTime;
                 journeyTimer += pauseDuration;
                 isJourneyPaused = false;
-                playerA.play().catch(e => {});
+                let currentPlayer = (activeDeck === 'A') ? playerA : playerB;
+                currentPlayer.play().catch(e => {});
                 let remaining = Math.max(100, stepEndTime + pauseDuration - millis());
                 nextTimeout = setTimeout(() => { currentStationIdx++; playCurrentStep(); }, remaining);
                 btn.html('⏸');

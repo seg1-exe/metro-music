@@ -449,7 +449,13 @@
       });
 
       // Mobile mini-player button proxies the main button
-      mpmControl.addEventListener('click', () => mpControl.click());
+      // touchend + preventDefault stops the browser from synthesizing mouseup/mouseReleased
+      // which would otherwise reach the canvas and cancel the journey
+      mpmControl.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        mpControl.click();
+      }, { passive: false });
+      mpmControl.addEventListener('click', () => mpControl.click()); // desktop fallback
     })();
   </script>
 </body>

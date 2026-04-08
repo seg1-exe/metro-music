@@ -33,6 +33,8 @@ let journeyTimer = 0;
 let trainPos = null;
 let currentStationIdx = 0;
 let nextTimeout = null;
+let stepEndTime = 0;
+let journeyPauseTime = 0;
 
 // Camera
 let mapScale = 1, mapOffsetX = 0, mapOffsetY = 0;
@@ -279,7 +281,7 @@ function initMiniPlayerEvents() {
     let btn = select('#mp-control');
     if (!btn) return;
 
-    btn.mousePressed(() => {
+    onTap(btn.elt, () => {
         if (currentManualTrackUrl) {
             // Manual playback
             if (playerA.paused) {
@@ -297,11 +299,17 @@ function initMiniPlayerEvents() {
         else if (isJourneyActive) {
             // Journey playback
             if (playerA.paused && playerB.paused) {
-                stopJourney(true);
-                resetMiniPlayer();
+                // Resume: adjust timers to account for pause duration
+                let pauseDuration = millis() - journeyPauseTime;
+                journeyTimer += pauseDuration;
+                playerA.play().catch(e => {});
+                let remaining = Math.max(100, stepEndTime + pauseDuration - millis());
+                nextTimeout = setTimeout(() => { currentStationIdx++; playCurrentStep(); }, remaining);
+                btn.html('⏸');
             } else {
                 playerA.pause(); playerB.pause();
                 if (nextTimeout) clearTimeout(nextTimeout);
+                journeyPauseTime = millis();
                 btn.html('▶');
             }
         }
@@ -309,6 +317,7 @@ function initMiniPlayerEvents() {
 }
 
 // --- SIDEBAR ---
+
 let selectedLegendLine = null;
 
 function initSidebarNavigation() { renderMainGenres(); }
@@ -585,10 +594,11 @@ function initTouchHandlers(canvasEl) {
             if (clickedStation) {
                 if (!selectedStart) { selectedStart = clickedStation; selectedEnd = null; currentPath = []; }
                 else if (!selectedEnd) { selectedEnd = clickedStation; findPath(selectedStart, selectedEnd); }
-                else { selectedStart = clickedStation; selectedEnd = null; currentPath = []; stopJourney(false); resetMiniPlayer(); renderMainGenres(); }
+                else { selectedStart = clickedStation; selectedEnd = null; currentPath = []; if (isJourneyActive) { stopJourney(false); resetMiniPlayer(); } renderMainGenres(); }
             } else {
                 selectedStart = null; selectedEnd = null; currentPath = [];
-                stopJourney(false); resetMiniPlayer(); renderMainGenres();
+                if (isJourneyActive) { stopJourney(false); resetMiniPlayer(); }
+                renderMainGenres();
             }
         }
         _prevTouchDist = null;
@@ -601,15 +611,6 @@ function initTouchHandlers(canvasEl) {
 
 // --- JOURNEY LOGIC ---
 function handleSelectionClick() {
-    // Stop manual playback on map click
-    if (currentManualTrackUrl) {
-        playerA.pause();
-        currentManualTrackUrl = null;
-        selectAll('.play-icon').forEach(el => el.html('▶'));
-        selectAll('.track-item').forEach(el => el.removeClass('playing'));
-        resetMiniPlayer();
-    }
-
     let mx = (mouseX - mapOffsetX) / mapScale; let my = (mouseY - mapOffsetY) / mapScale;
     let clickedStation = null;
     for (let s of stations) { if (dist(mx, my, s.x, s.y) < STATION_SIZE + 5) { clickedStation = s; break; } }
@@ -618,12 +619,11 @@ function handleSelectionClick() {
     if (clickedStation) {
         if (!selectedStart) { selectedStart = clickedStation; selectedEnd = null; currentPath = []; }
         else if (!selectedEnd) { selectedEnd = clickedStation; findPath(selectedStart, selectedEnd); }
-        else { selectedStart = clickedStation; selectedEnd = null; currentPath = []; stopJourney(false); resetMiniPlayer(); renderMainGenres(); }
+        else { selectedStart = clickedStation; selectedEnd = null; currentPath = []; if (isJourneyActive) { stopJourney(false); resetMiniPlayer(); } renderMainGenres(); }
     } else {
-        // Click on empty space: reset everything
+        // Click on empty space: deselect stations but don't interrupt manual playback
         selectedStart = null; selectedEnd = null; currentPath = [];
-        stopJourney(false);
-        resetMiniPlayer();
+        if (isJourneyActive) { stopJourney(false); resetMiniPlayer(); }
         renderMainGenres();
     }
 }
@@ -724,9 +724,13 @@ function playCurrentStep() {
         updateMiniPlayer(track.title, track.artist, station.name, lineObj ? lineObj.color : '#fff');
 
         crossfadeToTrack(track.url);
-        nextTimeout = setTimeout(() => { currentStationIdx++; playCurrentStep(); }, STATION_DURATION + stationStopTime);
+        let stepDuration = STATION_DURATION + stationStopTime;
+        stepEndTime = millis() + stepDuration;
+        nextTimeout = setTimeout(() => { currentStationIdx++; playCurrentStep(); }, stepDuration);
     } else {
-        nextTimeout = setTimeout(() => { currentStationIdx++; playCurrentStep(); }, 2000 + stationStopTime);
+        let stepDuration = 2000 + stationStopTime;
+        stepEndTime = millis() + stepDuration;
+        nextTimeout = setTimeout(() => { currentStationIdx++; playCurrentStep(); }, stepDuration);
     }
 }
 

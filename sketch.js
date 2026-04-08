@@ -35,6 +35,7 @@ let currentStationIdx = 0;
 let nextTimeout = null;
 let stepEndTime = 0;
 let journeyPauseTime = 0;
+let isJourneyPaused = false;
 
 // Camera
 let mapScale = 1, mapOffsetX = 0, mapOffsetY = 0;
@@ -246,7 +247,7 @@ function draw() {
 
     // TRAIN MARKER
     if (isJourneyActive && trainPos) {
-        updateTrainPosition();
+        if (!isJourneyPaused) updateTrainPosition();
         fill(0); noStroke(); circle(trainPos.x, trainPos.y, 20);
         fill(255); textAlign(CENTER, CENTER); textSize(10); text("♫", trainPos.x, trainPos.y);
         noFill(); stroke(0, 100); strokeWeight(2);
@@ -298,18 +299,21 @@ function initMiniPlayerEvents() {
         }
         else if (isJourneyActive) {
             // Journey playback
-            if (playerA.paused && playerB.paused) {
-                // Resume: adjust timers to account for pause duration
+            if (isJourneyPaused) {
+                // Resume
                 let pauseDuration = millis() - journeyPauseTime;
                 journeyTimer += pauseDuration;
+                isJourneyPaused = false;
                 playerA.play().catch(e => {});
                 let remaining = Math.max(100, stepEndTime + pauseDuration - millis());
                 nextTimeout = setTimeout(() => { currentStationIdx++; playCurrentStep(); }, remaining);
                 btn.html('⏸');
             } else {
+                // Pause
                 playerA.pause(); playerB.pause();
                 if (nextTimeout) clearTimeout(nextTimeout);
                 journeyPauseTime = millis();
+                isJourneyPaused = true;
                 btn.html('▶');
             }
         }
@@ -774,6 +778,7 @@ function interpolateAlongPath(pts, t) {
 // --- STOP JOURNEY ---
 function stopJourney(hardStop = false) {
     isJourneyActive = false;
+    isJourneyPaused = false;
     if (nextTimeout) clearTimeout(nextTimeout);
     if (hardStop) { killAllFades(); playerA.pause(); playerB.pause(); }
     else { fadeOut(playerA); fadeOut(playerB); }
